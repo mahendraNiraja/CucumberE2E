@@ -1,1 +1,191 @@
-[]
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-31T06:16:09.081Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "appHooks.ApplicationHook.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 17047000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "appHooks.ApplicationHook.launchBrowser()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Login page title",
+        "description": "",
+        "id": "login-page-feature;login-page-title",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "io.cucumber.java.PendingException: TODO: implement me\r\n\tat stepDefinition.LoginPageSteps.user_is_in_login_page(LoginPageSteps.java:13)\r\n\tat ✽.User is in login Page(file:///C:/Users/lenovo/workspace/BDDPOM/src/test/resources/features/LoginPage.feature:3)\r\n",
+              "status": "pending"
+            },
+            "line": 3,
+            "name": "User is in login Page",
+            "match": {
+              "location": "stepDefinition.LoginPageSteps.user_is_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "User get Title of Page",
+            "match": {
+              "location": "stepDefinition.LoginPageSteps.user_get_title_of_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Page title shoul be \"an?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"an?\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinition.LoginPageSteps.page_title_shoul_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-31T06:16:26.567Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "appHooks.ApplicationHook.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 7684000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "appHooks.ApplicationHook.launchBrowser()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Login with currect credential",
+        "description": "",
+        "id": "login-page-feature;login-with-currect-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "io.cucumber.java.PendingException: TODO: implement me\r\n\tat stepDefinition.LoginPageSteps.login_page_title(LoginPageSteps.java:31)\r\n\tat ✽.Login page title(file:///C:/Users/lenovo/workspace/BDDPOM/src/test/resources/features/LoginPage.feature:8)\r\n",
+              "status": "pending"
+            },
+            "line": 8,
+            "name": "Login page title",
+            "match": {
+              "location": "stepDefinition.LoginPageSteps.login_page_title()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User enter Username",
+            "match": {
+              "location": "stepDefinition.LoginPageSteps.user_enter_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user enter password",
+            "match": {
+              "location": "stepDefinition.LoginPageSteps.user_enter_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Click on login button",
+            "match": {
+              "location": "stepDefinition.LoginPageSteps.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User get Title of Page",
+            "match": {
+              "location": "stepDefinition.LoginPageSteps.user_get_title_of_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Page title shoul be \"an?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"an?\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinition.LoginPageSteps.page_title_shoul_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login page feature",
+    "description": "",
+    "id": "login-page-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/LoginPage.feature",
+    "tags": []
+  }
+]

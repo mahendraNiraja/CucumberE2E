@@ -1,2 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" time="0.915"/>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="25.819">
+<testcase classname="Login page feature" name="Login page title" time="17.446">
+<failure message="The scenario has pending or undefined step(s)" type="io.cucumber.java.PendingException"><![CDATA[Given User is in login Page.................................................pending
+When User get Title of Page.................................................skipped
+Then Page title shoul be "an?"..............................................skipped
+]]></failure>
+</testcase>
+<testcase classname="Login page feature" name="Login with currect credential" time="7.705">
+<failure message="The scenario has pending or undefined step(s)" type="io.cucumber.java.PendingException"><![CDATA[Given Login page title......................................................pending
+When User enter Username....................................................skipped
+And user enter password.....................................................skipped
+And Click on login button...................................................skipped
+Then User get Title of Page.................................................skipped
+Then Page title shoul be "an?"..............................................skipped
+]]></failure>
+</testcase>
+</testsuite>
