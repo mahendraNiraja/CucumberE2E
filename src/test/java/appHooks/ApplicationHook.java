@@ -29,6 +29,18 @@ public class ApplicationHook {
 
 		driverFactory= new DriverFactory();
 		driver=driverFactory.driverInit(pro.getProperty("browser"));
-		driver.get("https://google.com");
+		driver.get(pro.getProperty("URL"));
+		try {
+			Thread.sleep(10000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
+//@After(order=1)
+//	public void tearDown(){
+//
+//		driver.close();
+//	}
+
 }

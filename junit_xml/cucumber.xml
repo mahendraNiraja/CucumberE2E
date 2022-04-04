@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="25.819">
-<testcase classname="Login page feature" name="Login page title" time="17.446">
-<failure message="The scenario has pending or undefined step(s)" type="io.cucumber.java.PendingException"><![CDATA[Given User is in login Page.................................................pending
-When User get Title of Page.................................................skipped
-Then Page title shoul be "an?"..............................................skipped
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.968">
+<testcase classname="HomePage feature" name="Verify Header of Home Page" time="0.233">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User is already logged  into application..............................undefined
+Given User is an Home Page..................................................skipped
+Then User get Header Sections...............................................skipped
+And Header count is 7.......................................................skipped
 ]]></failure>
 </testcase>
-<testcase classname="Login page feature" name="Login with currect credential" time="7.705">
-<failure message="The scenario has pending or undefined step(s)" type="io.cucumber.java.PendingException"><![CDATA[Given Login page title......................................................pending
-When User enter Username....................................................skipped
-And user enter password.....................................................skipped
-And Click on login button...................................................skipped
-Then User get Title of Page.................................................skipped
-Then Page title shoul be "an?"..............................................skipped
-]]></failure>
+<testcase classname="Login page feature" name="Login page title" time="0.016">
+<system-out><![CDATA[Given User is in login Page.................................................passed
+When User get Title of Page.................................................passed
+Then Page title shoul be "Job Vacancy - Latest Job Openings - Job Search Online - Monster India".passed
+]]></system-out>
+</testcase>
+<testcase classname="Login page feature" name="Login with currect credential" time="0.016">
+<system-out><![CDATA[Given User is in login Page.................................................passed
+When User click on Login Button.............................................passed
+When User enter Username "kaushik.ku90@gmail.com"...........................passed
+And user enter password "Sid@12345".........................................passed
+And Click on login button...................................................passed
+Then User get Title of Page.................................................passed
+Then Page title shoul be "Job Vacancy - Latest Job Openings - Job Search Online - Monster India".passed
+]]></system-out>
 </testcase>
 </testsuite>

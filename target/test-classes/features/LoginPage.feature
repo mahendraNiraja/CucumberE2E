@@ -2,12 +2,13 @@ Feature: Login page feature
 Scenario: Login page title
 Given  User is in login Page
 When  User get Title of Page
-Then  Page title shoul be "an?"
+Then  Page title shoul be "Job Vacancy - Latest Job Openings - Job Search Online - Monster India"
 
 Scenario: Login with currect credential
-Given Login page title
-When  User enter Username
-And  user enter password
+Given User is in login Page
+When User click on Login Button
+When  User enter Username "kaushik.ku90@gmail.com"
+And  user enter password "Sid@12345"
 And  Click on login button
 Then  User get Title of Page
-Then  Page title shoul be "an?"
+Then  Page title shoul be "Job Vacancy - Latest Job Openings - Job Search Online - Monster India"

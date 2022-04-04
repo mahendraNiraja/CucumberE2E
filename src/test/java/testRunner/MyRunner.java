@@ -7,12 +7,12 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions
-		(features = {"src/test/resources/features/LoginPage.feature"},
+		(features = {"src/test/resources/features"},
 		glue= {"stepDefinition","appHooks"},
 		plugin = {"pretty", "html:test-output", "json:target/JsonReports/Cucumber-Report.json", "junit:junit_xml/cucumber.xml"},
 		monochrome = true,
 		strict = true,
-		dryRun=false)
+		dryRun=true)
 		//tags={"@CRMLoginTest"})
 		//tags={"@SanityTest, @RegressionTest"})
 

@@ -3,11 +3,11 @@ package com.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class LoginPage {
+public class HomePage {
 
 
 	private WebDriver driver;
-	public LoginPage(WebDriver driver){
+	public HomePage(WebDriver driver){
 
 		this.driver=driver;
 
@@ -63,11 +63,5 @@ public class LoginPage {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-	}
-	public HomePage doLogin(String Username,String passwor){
-		driver.findElement(userNameTextBox).sendKeys(Username);
-		driver.findElement(passworsTextBox).sendKeys(passwor);
-		driver.findElement(signBtn).click();
-		 return new HomePage(driver);
 	}
 }
