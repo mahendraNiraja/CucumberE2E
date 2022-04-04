@@ -1,67 +1,51 @@
 package com.pages;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class HomePage {
 
-
 	private WebDriver driver;
-	public HomePage(WebDriver driver){
 
-		this.driver=driver;
+	public HomePage(WebDriver driver) {
+
+		this.driver = driver;
 
 	}
 
-	private By loginButton =By.xpath("//header/header/div/div[3]/div/div/nav/div[2]/ul[2]/ul/li[1]/a/span[2]");
-	private By userNameTextBox =By.xpath("//*[@id='signInName']");
-	private By passworsTextBox =By.xpath("//*[@id='password']");
-	private By signBtn=By.id("signInbtn");
-	private By noThanks=By.xpath("//*[text()='No Thanks']");
+	private By allHeader = By.xpath("//div/div/div[2]/div/div[1]/div/div[1]/ul/li/a");
 
-	public void clickOnJobSeekerLoginBtn() {
+	public List<String> getAllheaders() {
 
 		try {
-//			String firstWindow= driver.getWindowHandle();
-//			System.out.println("firstWindow-->"+firstWindow);
-//			ElementUitil.switchWindow(driver, firstWindow);
-//			WebElement f= driver.findElement(By.xpath("//*[@id='ssIFrame_google']"));
-//			driver.switchTo().frame(f);
-		//	driver.findElement(noThanks).click();
-			driver.findElement(loginButton).click();
+			List<WebElement> allheade = driver.findElements(allHeader);
+			List<String> headers = new ArrayList<>();
+			for (WebElement e : allheade) {
+				System.out.println("N" + e.getText());
+				String test = e.getText();
+				headers.add(test);
+			}
+			return headers;
 
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		return null;
 	}
-	public void enterUserName(String Username) {
+	public int getHeaderCount() {
 
 		try {
-
-			driver.findElement(userNameTextBox).sendKeys(Username);
-
+			List<WebElement> allheade = driver.findElements(allHeader);
+			int count=allheade.size();
+          return count;
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		return 0;
 	}
-	public void enterPassword(String password) {
 
-		try {
-
-			driver.findElement(passworsTextBox).sendKeys(password);
-
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-	public void clickOnSingInBtn() {
-
-		try {
-
-			driver.findElement(signBtn).click();
-
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
 }
