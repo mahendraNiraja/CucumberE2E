@@ -9,10 +9,11 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions
 		(features = {"src/test/resources/features"},
 		glue= {"stepDefinition","appHooks"},
-		plugin = {"pretty", "html:test-output", "json:target/JsonReports/Cucumber-Report.json", "junit:junit_xml/cucumber.xml"},
+				plugin = {"pretty",
+						"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:","timeline:test-output-thread/"},
+
 		monochrome = true,
-		strict = true,
-		dryRun=true)
+		dryRun=false)
 		//tags={"@CRMLoginTest"})
 		//tags={"@SanityTest, @RegressionTest"})
 

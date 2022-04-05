@@ -1,16 +1,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 
-  <groupId>CucumberBDD</groupId>
-  <artifactId>BDDPOM</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+	<groupId>CucumberBDD</groupId>
+	<artifactId>BDDPOM</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 
-  <name>BDDPOM</name>
-  <url>http://maven.apache.org</url>
+	<name>BDDPOM</name>
+	<url>http://maven.apache.org</url>
 
-  <properties>
+	<properties>
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.8</java.version>
@@ -21,11 +21,11 @@
 
 	</properties>
 	<repositories>
-        <repository>
-            <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
-        </repository>
-    </repositories>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
 
 	<dependencies>
 
@@ -34,21 +34,21 @@
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-java</artifactId>
 			<version>${cucumber.version}</version>
-		
+
 		</dependency>
 
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-junit</artifactId>
 			<version>${cucumber.version}</version>
-			
+
 		</dependency>
 
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>${junit.version}</version>
-		
+
 		</dependency>
 
 		<dependency>
@@ -63,25 +63,20 @@
 			<version>4.2.2</version>
 		</dependency>
 
-		<dependency>
-			<groupId>tech.grasshopper</groupId>
-			<artifactId>extentreports-cucumber6-adapter</artifactId>
-			<version>2.6.0</version>
-			
-		</dependency>
+
 
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>6.14.3</version>
-		
+
 		</dependency>
 
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-testng</artifactId>
 			<version>${cucumber.version}</version>
-			
+
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
@@ -89,6 +84,17 @@
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
 			<version>4.1.2</version>
+		</dependency>
+		<dependency>
+			<groupId>tech.grasshopper</groupId>
+			<artifactId>extentreports-cucumber6-adapter</artifactId>
+			<version>2.6.0</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.github.mkolisnyk</groupId>
+			<artifactId>cucumber-runner</artifactId>
+			<version>1.0.8</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
@@ -98,11 +104,11 @@
 			<version>4.1.2</version>
 		</dependency>
 
-<dependency>
-    <groupId>com.github.ralfstuckert.pdfbox-layout</groupId>
-    <artifactId>pdfbox2-layout</artifactId>
-    <version>1.0.1</version>
-</dependency>
+		<dependency>
+			<groupId>com.github.ralfstuckert.pdfbox-layout</groupId>
+			<artifactId>pdfbox2-layout</artifactId>
+			<version>1.0.1</version>
+		</dependency>
 
 	</dependencies>
 
@@ -133,8 +139,26 @@
 					<useUnlimitedThreads>false</useUnlimitedThreads>
 				</configuration>
 			</plugin>
+<plugin>
+	<groupId>tech.grasshopper</groupId>
+	<artifactId>cucumber-pdf-plugin</artifactId>
+	<version>1.5.0</version>
+	<executions>
+		<execution>
+			<id>report</id>
+			<phase>post-integration-test</phase>
+			<goals>
+				<goal>pdfreport</goal>
+			</goals>
+		</execution>
+	</executions>
+	<configuration>
+		<cucumberJsonReportDirectory>${project.build.directory}/json-report</cucumberJsonReportDirectory>
+		<cucumberPdfReportDirectory>pdf-report</cucumberPdfReportDirectory>
+		<strictCucumber6Behavior>true</strictCucumber6Behavior>
+	</configuration>
+</plugin>
 
-			
 
 
 		</plugins>
