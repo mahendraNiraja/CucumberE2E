@@ -88,22 +88,12 @@
 		<dependency>
 			<groupId>tech.grasshopper</groupId>
 			<artifactId>extentreports-cucumber6-adapter</artifactId>
-			<version>2.6.0</version>
+			<version>2.5.0</version>
 			<scope>test</scope>
 			
 		</dependency>
 
-		<dependency>
-			<groupId>com.github.mkolisnyk</groupId>
-			<artifactId>cucumber-runner</artifactId>
-			<version>1.0.8</version>
-		</dependency>
 
-<dependency>
-    <groupId>tech.grasshopper</groupId>
-    <artifactId>extent-pdf-report</artifactId>
-    <version>2.1.1</version>
-</dependency>
 		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
 		<dependency>
 			<groupId>org.apache.poi</groupId>
@@ -143,30 +133,30 @@
 					</includes>
 					<parallel>methods</parallel>
 					<threadCount>4</threadCount>
-					<useUnlimitedThreads>false</useUnlimitedThreads>
+					<useUnlimitedThreads>true</useUnlimitedThreads>
 				</configuration>
 			</plugin>
+
 <plugin>
-	<groupId>tech.grasshopper</groupId>
-	<artifactId>cucumber-pdf-plugin</artifactId>
-	<version>1.5.0</version>
-	<executions>
-		<execution>
-			<id>report</id>
-			<phase>post-integration-test</phase>
-			<goals>
-				<goal>pdfreport</goal>
-			</goals>
-		</execution>
-	</executions>
-	<configuration>
-		<cucumberJsonReportDirectory>${project.build.directory}/json-report</cucumberJsonReportDirectory>
-		<cucumberPdfReportDirectory>pdf-report</cucumberPdfReportDirectory>
-		<strictCucumber6Behavior>true</strictCucumber6Behavior>
-	</configuration>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-failsafe-plugin</artifactId>
+    <version>2.22.0</version>
+    <executions>
+        <execution>
+            <goals>
+                <goal>integration-test</goal>
+                <goal>verify</goal>
+            </goals>
+            <configuration>
+            <includes>
+            <include>**/MyRunner.java</include>
+            </includes>
+                <parallel>methods</parallel>
+                <useUnlimitedThreads>true</useUnlimitedThreads>
+            </configuration>
+        </execution>
+    </executions>
 </plugin>
-
-
 
 		</plugins>
 	</build>
