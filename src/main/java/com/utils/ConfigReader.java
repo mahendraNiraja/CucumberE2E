@@ -6,10 +6,10 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigReader {
-	private Properties prop;
+	private  Properties prop;
 
 
-	public Properties init_prop() {
+	public  Properties init_prop() {
 
 		prop = new Properties();
 		try {

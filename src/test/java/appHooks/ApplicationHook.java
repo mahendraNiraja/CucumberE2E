@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import com.driverFactory.DriverFactory;
 import com.utils.ConfigReader;
 
+import io.cucumber.java.After;
 import io.cucumber.java.Before;
 
 public class ApplicationHook {
@@ -37,10 +38,10 @@ public class ApplicationHook {
 			e.printStackTrace();
 		}
 	}
-//@After(order=1)
-//	public void tearDown(){
-//
-//		driver.close();
-//	}
+@After(order=1)
+	public void tearDown(){
+
+		driver.close();
+	}
 
 }

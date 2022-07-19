@@ -10,10 +10,11 @@ import io.cucumber.junit.CucumberOptions;
 		(features = {"./src/test/resources/features"},
 		glue= {"stepDefinition","appHooks"},
 				plugin = {"pretty",
-						"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:","timeline:test-output-thread/"},
+						"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
 
-		monochrome = true,
-		dryRun=false)
+						monochrome = true,
+						dryRun=false,
+						tags="@Smoke")
 		//tags={"@CRMLoginTest"})
 		//tags={"@SanityTest, @RegressionTest"})
 
@@ -21,3 +22,6 @@ public class MyRunner
 {
 
 }
+
+
+//tags={"@CRMLoginTest"})
