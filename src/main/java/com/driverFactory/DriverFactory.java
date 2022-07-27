@@ -38,6 +38,7 @@ public class DriverFactory {
 
 		getDriver().manage().deleteAllCookies();
 		getDriver().manage().window().maximize();
+		//Get driver
 		return getDriver();
 
 	}
