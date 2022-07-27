@@ -28,6 +28,7 @@ public class ApplicationHook {
 	@Before(order=1)
 	public void launchBrowser(){
 
+
 		driverFactory= new DriverFactory();
 		driver=driverFactory.driverInit(pro.getProperty("browser"));
 		driver.get(pro.getProperty("URL"));
