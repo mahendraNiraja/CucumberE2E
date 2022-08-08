@@ -1,6 +1,19 @@
 package com.utils;
 
+import java.time.Duration;
 import java.util.Random;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+
+import com.driverFactory.DriverFactory;
 
 public class JavaUtilites {
 	
@@ -37,9 +50,26 @@ public class JavaUtilites {
 			return randomString;
 
 	 }
-	 public static void main(String[] args) {
+	/* public static void main(String[] args) {
 		System.out.println(getRandomString(8));
 		 
 		
-	}
+	}*/
+	 
+	 public static void waitForElements(By element,String type)
+	 {
+		
+		  if(type.equalsIgnoreCase("clickable"))
+{
+		 WebDriverWait wait = new WebDriverWait(DriverFactory.getDriver(), Duration.ofSeconds(30));
+		 wait.until(ExpectedConditions.elementToBeClickable(DriverFactory.getDriver().findElement(element)));
+}	
+		  if(type.equalsIgnoreCase("presence"))  
+		  {
+			  WebDriverWait wait = new WebDriverWait(DriverFactory.getDriver(), Duration.ofSeconds(30));
+			  wait.until(ExpectedConditions.presenceOfElementLocated(element));
+		  }
+	 }
+	 
+	 
 }
