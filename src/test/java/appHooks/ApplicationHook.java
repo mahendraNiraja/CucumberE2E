@@ -41,7 +41,7 @@ public class ApplicationHook {
 	}
 @After(order=1)
 	public void tearDown(){
-
+System.out.println("close the driver");
 		driver.close();
 	}
 
