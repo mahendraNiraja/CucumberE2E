@@ -1,16 +1,21 @@
 package testRunner;
 
+import java.io.*;
+
+import org.junit.AfterClass;
 import org.junit.runner.RunWith;
 
+
+import appHooks.ApplicationHook;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
-
+//"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+//"pretty",
 @RunWith(Cucumber.class)
 @CucumberOptions
 		(features = {"./src/test/resources/features"},
 		glue= {"stepDefinition","appHooks"},
-				plugin = {"pretty",
-						"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
+				plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
 
 						monochrome = true,
 						dryRun=false,
@@ -18,8 +23,14 @@ import io.cucumber.junit.CucumberOptions;
 		//tags={"@CRMLoginTest"})
 		//tags={"@SanityTest, @RegressionTest"})
 
-public class MyRunner
+public class MyRunner extends ApplicationHook
 {
+	
+/*	@AfterClass
+	public static void writeExtentReport() {
+		
+		Reporter.loadXMLConfig(new File("C:/Users/suranjan banerjee/Mahesh/CucumberE2E/src/test/resources/config/extent-config.xml"));
+	}*/
 
 }
 
