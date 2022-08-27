@@ -2,8 +2,11 @@ package appHooks;
 
 import java.util.Properties;
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
+import com.aventstack.extentreports.gherkin.model.Scenario;
 import com.driverFactory.DriverFactory;
 import com.utils.ConfigReader;
 
@@ -39,7 +42,25 @@ public class ApplicationHook {
 			e.printStackTrace();
 		}
 	}
-@After(order=1)
+	@After(order=1)
+	public void takeScreenshot(io.cucumber.java.Scenario scenario){
+
+		if (scenario.isFailed())
+		{
+			System.out.println("take the screenshot");
+			TakesScreenshot ts=(TakesScreenshot) DriverFactory.getDriver();
+			byte[] src=ts.getScreenshotAs(OutputType.BYTES);
+			scenario.attach(src, "image/png", "screenshot");
+			
+		}
+		else {
+			System.out.println("take the screenshot");
+			TakesScreenshot ts=(TakesScreenshot) DriverFactory.getDriver();
+			byte[] src=ts.getScreenshotAs(OutputType.BYTES);
+			scenario.attach(src, "image/png", "screenshot");
+		}
+	}
+@After(order=0)
 	public void tearDown(){
 System.out.println("close the driver");
 		driver.close();
