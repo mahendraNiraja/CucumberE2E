@@ -1,10 +1,16 @@
 package com.utils;
 
+import org.openqa.selenium.WebElement;
+
 public class ElementUitil {
 
-  public void testWait(){
-	  //am strted working on elements utlity s
-	  System.out.println("Test");
-  }
+	public static void doClick(WebElement ele) {
+		try {
+			ele.click();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
 
 }

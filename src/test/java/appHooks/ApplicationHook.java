@@ -15,25 +15,23 @@ import io.cucumber.java.Before;
 
 public class ApplicationHook {
 
-
 	private DriverFactory driverFactory;
 	private WebDriver driver;
-	private ConfigReader  cr;
+	private ConfigReader cr;
 	public Properties pro;
 
-	@Before(order=0)
-	public void getProperty(){
-		cr= new ConfigReader();
-		pro=cr.init_prop();
+	@Before(order = 0)
+	public void getProperty() {
+		cr = new ConfigReader();
+		pro = cr.init_prop();
 
 	}
 
-	@Before(order=1)
-	public void launchBrowser(){
+	@Before(order = 1)
+	public void launchBrowser() {
 
-
-		driverFactory= new DriverFactory();
-		driver=driverFactory.driverInit(pro.getProperty("browser"));
+		driverFactory = new DriverFactory();
+		driver = driverFactory.driverInit(pro.getProperty("browser"));
 		driver.get(pro.getProperty("URL"));
 		try {
 			Thread.sleep(10000);
@@ -42,27 +40,27 @@ public class ApplicationHook {
 			e.printStackTrace();
 		}
 	}
-	@After(order=1)
-	public void takeScreenshot(io.cucumber.java.Scenario scenario){
 
-		if (scenario.isFailed())
-		{
+	@After(order = 1)
+	public void takeScreenshot(io.cucumber.java.Scenario scenario) {
+
+		if (scenario.isFailed()) {
 			System.out.println("take the screenshot");
-			TakesScreenshot ts=(TakesScreenshot) DriverFactory.getDriver();
-			byte[] src=ts.getScreenshotAs(OutputType.BYTES);
+			TakesScreenshot ts = (TakesScreenshot) DriverFactory.getDriver();
+			byte[] src = ts.getScreenshotAs(OutputType.BYTES);
 			scenario.attach(src, "image/png", "screenshot");
-			
-		}
-		else {
+
+		} else {
 			System.out.println("take the screenshot");
-			TakesScreenshot ts=(TakesScreenshot) DriverFactory.getDriver();
-			byte[] src=ts.getScreenshotAs(OutputType.BYTES);
+			TakesScreenshot ts = (TakesScreenshot) DriverFactory.getDriver();
+			byte[] src = ts.getScreenshotAs(OutputType.BYTES);
 			scenario.attach(src, "image/png", "screenshot");
 		}
 	}
-@After(order=0)
-	public void tearDown(){
-System.out.println("close the driver");
+
+	@After(order = 0)
+	public void tearDown() {
+		System.out.println("close the driver");
 		driver.close();
 	}
 
