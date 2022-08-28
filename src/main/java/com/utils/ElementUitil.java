@@ -12,5 +12,14 @@ public class ElementUitil {
 		}
 
 	}
+	public static void enteText(WebElement ele,String value) {
+		try {
+			ele.sendKeys(value);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+
 
 }
