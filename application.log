@@ -1,0 +1,828 @@
+2022-08-28 14:25:23,650 DEBUG [main] InternalLoggerFactory:89 - Using Log4J as the default logging framework
+2022-08-28 14:25:23,668 DEBUG [main] ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2022-08-28 14:25:23,669 DEBUG [main] ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2022-08-28 14:25:23,681 DEBUG [main] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@64f857e7
+2022-08-28 14:25:23,755 DEBUG [main] PlatformDependent0:495 - -Dio.netty.noUnsafe: false
+2022-08-28 14:25:23,756 DEBUG [main] PlatformDependent0:998 - Java version: 8
+2022-08-28 14:25:23,762 DEBUG [main] PlatformDependent0:136 - sun.misc.Unsafe.theUnsafe: available
+2022-08-28 14:25:23,765 DEBUG [main] PlatformDependent0:160 - sun.misc.Unsafe.copyMemory: available
+2022-08-28 14:25:23,766 DEBUG [main] PlatformDependent0:192 - sun.misc.Unsafe.storeFence: available
+2022-08-28 14:25:23,767 DEBUG [main] PlatformDependent0:235 - java.nio.Buffer.address: available
+2022-08-28 14:25:23,769 DEBUG [main] PlatformDependent0:306 - direct buffer constructor: available
+2022-08-28 14:25:23,771 DEBUG [main] PlatformDependent0:384 - java.nio.Bits.unaligned: available, true
+2022-08-28 14:25:23,771 DEBUG [main] PlatformDependent0:458 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2022-08-28 14:25:23,772 DEBUG [main] PlatformDependent0:481 - java.nio.DirectByteBuffer.<init>(long, int): available
+2022-08-28 14:25:23,773 DEBUG [main] PlatformDependent:1120 - sun.misc.Unsafe: available
+2022-08-28 14:25:23,775 DEBUG [main] PlatformDependent:1250 - -Dio.netty.tmpdir: C:\Users\lenovo\AppData\Local\Temp (java.io.tmpdir)
+2022-08-28 14:25:23,777 DEBUG [main] PlatformDependent:1329 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-08-28 14:25:23,782 DEBUG [main] PlatformDependent:1080 - Platform: Windows
+2022-08-28 14:25:23,784 DEBUG [main] PlatformDependent:178 - -Dio.netty.maxDirectMemory: 1415053312 bytes
+2022-08-28 14:25:23,785 DEBUG [main] PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-08-28 14:25:23,787 DEBUG [main] CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2022-08-28 14:25:23,788 DEBUG [main] PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2022-08-28 14:25:23,810 DEBUG [main] PlatformDependent:971 - org.jctools-core.MpscChunkedArrayQueue: available
+2022-08-28 14:25:23,879 DEBUG [main] InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-08-28 14:25:23,879 DEBUG [main] InternalThreadLocalMap:89 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-08-28 14:25:23,943 DEBUG [main] JdkSslContext:83 - Default protocols (JDK): [TLSv1.2] 
+2022-08-28 14:25:23,944 DEBUG [main] JdkSslContext:84 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-08-28 14:25:24,034 DEBUG [main] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
+2022-08-28 14:25:24,054 DEBUG [main] NioEventLoop:109 - -Dio.netty.noKeySetOptimization: false
+2022-08-28 14:25:24,055 DEBUG [main] NioEventLoop:110 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-08-28 14:25:24,141 DEBUG [main] PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 8
+2022-08-28 14:25:24,141 DEBUG [main] PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 8
+2022-08-28 14:25:24,142 DEBUG [main] PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+2022-08-28 14:25:24,143 DEBUG [main] PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+2022-08-28 14:25:24,143 DEBUG [main] PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+2022-08-28 14:25:24,144 DEBUG [main] PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+2022-08-28 14:25:24,144 DEBUG [main] PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+2022-08-28 14:25:24,145 DEBUG [main] PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-08-28 14:25:24,145 DEBUG [main] PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-08-28 14:25:24,146 DEBUG [main] PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-08-28 14:25:24,146 DEBUG [main] PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+2022-08-28 14:25:24,146 DEBUG [main] PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-08-28 14:25:24,171 DEBUG [main] ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2022-08-28 14:25:24,172 DEBUG [main] ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-08-28 14:25:24,172 DEBUG [main] ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-08-28 14:25:25,363 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 10828 (auto-detected)
+2022-08-28 14:25:25,368 DEBUG [Forwarding newSession on session null to remote] NetUtil:136 - -Djava.net.preferIPv4Stack: false
+2022-08-28 14:25:25,368 DEBUG [Forwarding newSession on session null to remote] NetUtil:137 - -Djava.net.preferIPv6Addresses: false
+2022-08-28 14:25:25,671 DEBUG [Forwarding newSession on session null to remote] NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-08-28 14:25:25,677 DEBUG [Forwarding newSession on session null to remote] NetUtil:191 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-08-28 14:25:25,994 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: b4:6d:83:ff:fe:ab:0e:f5 (auto-detected)
+2022-08-28 14:25:26,165 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2022-08-28 14:25:26,165 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2022-08-28 14:25:26,166 DEBUG [AsyncHttpClient-1-2] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@15e0aed9
+2022-08-28 14:25:26,253 DEBUG [AsyncHttpClient-1-2] Recycler:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-08-28 14:25:26,254 DEBUG [AsyncHttpClient-1-2] Recycler:86 - -Dio.netty.recycler.ratio: 8
+2022-08-28 14:25:26,254 DEBUG [AsyncHttpClient-1-2] Recycler:87 - -Dio.netty.recycler.chunkSize: 32
+2022-08-28 14:25:26,254 DEBUG [AsyncHttpClient-1-2] Recycler:88 - -Dio.netty.recycler.blocking: false
+2022-08-28 14:25:29,982 DEBUG [AsyncHttpClient-1-2] Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-08-28 14:25:30,228 DEBUG [main] ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0xa1b6193115408cb8
+2022-08-28 14:25:55,478  INFO [main] ElementUitil:17 - User is able to perform click operation
+2022-08-28 14:25:59,000 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-08-28 14:25:59,000 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-08-28 14:25:59,001 DEBUG [main] GlyphSubstitutionTable:263 - Type 6 GSUB lookup table is not supported and will be ignored
+2022-08-28 14:25:59,001 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-08-28 14:25:59,001 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-08-28 14:25:59,246 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-08-28 14:25:59,246 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-08-28 14:25:59,247 DEBUG [main] GlyphSubstitutionTable:263 - Type 6 GSUB lookup table is not supported and will be ignored
+2022-08-28 14:25:59,247 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-08-28 14:25:59,247 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-08-28 14:25:59,325 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-08-28 14:25:59,326 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-08-28 14:25:59,327 DEBUG [main] GlyphSubstitutionTable:263 - Type 6 GSUB lookup table is not supported and will be ignored
+2022-08-28 14:25:59,327 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-08-28 14:25:59,328 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-08-28 14:25:59,351 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-08-28 14:25:59,351 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-08-28 14:25:59,351 DEBUG [main] GlyphSubstitutionTable:263 - Type 6 GSUB lookup table is not supported and will be ignored
+2022-08-28 14:25:59,352 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-08-28 14:25:59,352 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-08-28 14:25:59,883 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-08-28 14:25:59,884 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-08-28 14:25:59,885 DEBUG [main] GlyphSubstitutionTable:263 - Type 6 GSUB lookup table is not supported and will be ignored
+2022-08-28 14:25:59,885 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-08-28 14:25:59,886 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-08-28 14:26:00,138 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514fix.fon
+2022-08-28 14:26:00,139 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514fixe.fon
+2022-08-28 14:26:00,140 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514fixg.fon
+2022-08-28 14:26:00,141 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514fixr.fon
+2022-08-28 14:26:00,143 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514fixt.fon
+2022-08-28 14:26:00,144 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514oem.fon
+2022-08-28 14:26:00,145 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514oeme.fon
+2022-08-28 14:26:00,146 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514oemg.fon
+2022-08-28 14:26:00,146 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514oemr.fon
+2022-08-28 14:26:00,147 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514oemt.fon
+2022-08-28 14:26:00,148 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514sys.fon
+2022-08-28 14:26:00,149 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514syse.fon
+2022-08-28 14:26:00,150 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514sysg.fon
+2022-08-28 14:26:00,151 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514sysr.fon
+2022-08-28 14:26:00,152 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514syst.fon
+2022-08-28 14:26:00,153 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\85775.fon
+2022-08-28 14:26:00,154 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\85855.fon
+2022-08-28 14:26:00,155 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\85f1255.fon
+2022-08-28 14:26:00,155 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\85f1256.fon
+2022-08-28 14:26:00,155 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\85f1257.fon
+2022-08-28 14:26:00,156 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\85f874.fon
+2022-08-28 14:26:00,156 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\85s1255.fon
+2022-08-28 14:26:00,157 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\85s1256.fon
+2022-08-28 14:26:00,157 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\85s1257.fon
+2022-08-28 14:26:00,158 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\85s874.fon
+2022-08-28 14:26:00,158 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ALGER.TTF
+2022-08-28 14:26:00,159 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\ALGER.TTF
+2022-08-28 14:26:00,160 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ANTQUAB.TTF
+2022-08-28 14:26:00,160 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\ANTQUAB.TTF
+2022-08-28 14:26:00,160 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ANTQUABI.TTF
+2022-08-28 14:26:00,161 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\ANTQUABI.TTF
+2022-08-28 14:26:00,161 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ANTQUAI.TTF
+2022-08-28 14:26:00,162 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\ANTQUAI.TTF
+2022-08-28 14:26:00,163 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\app775.fon
+2022-08-28 14:26:00,163 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\app850.fon
+2022-08-28 14:26:00,164 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\app852.fon
+2022-08-28 14:26:00,164 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\app855.fon
+2022-08-28 14:26:00,164 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\app857.fon
+2022-08-28 14:26:00,165 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\app866.fon
+2022-08-28 14:26:00,165 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\app932.fon
+2022-08-28 14:26:00,166 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\app936.fon
+2022-08-28 14:26:00,166 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\app949.fon
+2022-08-28 14:26:00,167 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\app950.fon
+2022-08-28 14:26:00,168 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\arial.ttf
+2022-08-28 14:26:00,168 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\arial.ttf
+2022-08-28 14:26:00,169 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\arialbd.ttf
+2022-08-28 14:26:00,169 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\arialbd.ttf
+2022-08-28 14:26:00,170 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\arialbi.ttf
+2022-08-28 14:26:00,170 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\arialbi.ttf
+2022-08-28 14:26:00,171 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ariali.ttf
+2022-08-28 14:26:00,171 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\ariali.ttf
+2022-08-28 14:26:00,172 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ARIALN.TTF
+2022-08-28 14:26:00,172 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\ARIALN.TTF
+2022-08-28 14:26:00,173 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ARIALNB.TTF
+2022-08-28 14:26:00,174 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\ARIALNB.TTF
+2022-08-28 14:26:00,175 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ARIALNBI.TTF
+2022-08-28 14:26:00,176 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\ARIALNBI.TTF
+2022-08-28 14:26:00,177 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ARIALNI.TTF
+2022-08-28 14:26:00,177 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\ARIALNI.TTF
+2022-08-28 14:26:00,178 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ARIALUNI.TTF
+2022-08-28 14:26:00,178 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\ARIALUNI.TTF
+2022-08-28 14:26:00,179 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ariblk.ttf
+2022-08-28 14:26:00,179 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\ariblk.ttf
+2022-08-28 14:26:00,180 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\bahnschrift.ttf
+2022-08-28 14:26:00,180 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\bahnschrift.ttf
+2022-08-28 14:26:00,181 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\BASKVILL.TTF
+2022-08-28 14:26:00,182 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\BASKVILL.TTF
+2022-08-28 14:26:00,182 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\BAUHS93.TTF
+2022-08-28 14:26:00,183 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\BAUHS93.TTF
+2022-08-28 14:26:00,183 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\BELL.TTF
+2022-08-28 14:26:00,184 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\BELL.TTF
+2022-08-28 14:26:00,184 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\BELLB.TTF
+2022-08-28 14:26:00,184 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\BELLB.TTF
+2022-08-28 14:26:00,185 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\BELLI.TTF
+2022-08-28 14:26:00,185 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\BELLI.TTF
+2022-08-28 14:26:00,186 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\BERNHC.TTF
+2022-08-28 14:26:00,187 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\BERNHC.TTF
+2022-08-28 14:26:00,187 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\BKANT.TTF
+2022-08-28 14:26:00,187 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\BKANT.TTF
+2022-08-28 14:26:00,188 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\BOD_PSTC.TTF
+2022-08-28 14:26:00,188 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\BOD_PSTC.TTF
+2022-08-28 14:26:00,189 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\BOOKOS.TTF
+2022-08-28 14:26:00,189 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\BOOKOS.TTF
+2022-08-28 14:26:00,190 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\BOOKOSB.TTF
+2022-08-28 14:26:00,190 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\BOOKOSB.TTF
+2022-08-28 14:26:00,191 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\BOOKOSBI.TTF
+2022-08-28 14:26:00,192 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\BOOKOSBI.TTF
+2022-08-28 14:26:00,193 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\BOOKOSI.TTF
+2022-08-28 14:26:00,194 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\BOOKOSI.TTF
+2022-08-28 14:26:00,197 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\BRITANIC.TTF
+2022-08-28 14:26:00,197 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\BRITANIC.TTF
+2022-08-28 14:26:00,198 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\BRLNSB.TTF
+2022-08-28 14:26:00,199 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\BRLNSB.TTF
+2022-08-28 14:26:00,200 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\BRLNSDB.TTF
+2022-08-28 14:26:00,200 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\BRLNSDB.TTF
+2022-08-28 14:26:00,201 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\BRLNSR.TTF
+2022-08-28 14:26:00,202 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\BRLNSR.TTF
+2022-08-28 14:26:00,203 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\BROADW.TTF
+2022-08-28 14:26:00,203 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\BROADW.TTF
+2022-08-28 14:26:00,204 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\BRUSHSCI.TTF
+2022-08-28 14:26:00,204 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\BRUSHSCI.TTF
+2022-08-28 14:26:00,205 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\BSSYM7.TTF
+2022-08-28 14:26:00,205 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\BSSYM7.TTF
+2022-08-28 14:26:00,206 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\c8514fix.fon
+2022-08-28 14:26:00,207 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\c8514oem.fon
+2022-08-28 14:26:00,207 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\c8514sys.fon
+2022-08-28 14:26:00,208 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\calibri.ttf
+2022-08-28 14:26:00,208 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\calibri.ttf
+2022-08-28 14:26:00,209 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\calibrib.ttf
+2022-08-28 14:26:00,209 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\calibrib.ttf
+2022-08-28 14:26:00,210 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\calibrii.ttf
+2022-08-28 14:26:00,210 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\calibrii.ttf
+2022-08-28 14:26:00,211 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\calibril.ttf
+2022-08-28 14:26:00,211 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\calibril.ttf
+2022-08-28 14:26:00,212 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\calibrili.ttf
+2022-08-28 14:26:00,212 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\calibrili.ttf
+2022-08-28 14:26:00,213 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\calibriz.ttf
+2022-08-28 14:26:00,213 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\calibriz.ttf
+2022-08-28 14:26:00,214 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\CALIFB.TTF
+2022-08-28 14:26:00,215 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\CALIFB.TTF
+2022-08-28 14:26:00,217 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\CALIFI.TTF
+2022-08-28 14:26:00,217 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\CALIFI.TTF
+2022-08-28 14:26:00,218 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\CALIFR.TTF
+2022-08-28 14:26:00,219 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\CALIFR.TTF
+2022-08-28 14:26:00,220 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cambria.ttc
+2022-08-28 14:26:00,220 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\cambria.ttc
+2022-08-28 14:26:00,221 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cambriab.ttf
+2022-08-28 14:26:00,221 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\cambriab.ttf
+2022-08-28 14:26:00,222 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cambriai.ttf
+2022-08-28 14:26:00,223 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\cambriai.ttf
+2022-08-28 14:26:00,223 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cambriaz.ttf
+2022-08-28 14:26:00,224 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\cambriaz.ttf
+2022-08-28 14:26:00,224 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\Candara.ttf
+2022-08-28 14:26:00,225 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\Candara.ttf
+2022-08-28 14:26:00,225 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\Candarab.ttf
+2022-08-28 14:26:00,225 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\Candarab.ttf
+2022-08-28 14:26:00,226 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\Candarai.ttf
+2022-08-28 14:26:00,226 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\Candarai.ttf
+2022-08-28 14:26:00,227 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\Candaral.ttf
+2022-08-28 14:26:00,227 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\Candaral.ttf
+2022-08-28 14:26:00,228 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\Candarali.ttf
+2022-08-28 14:26:00,228 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\Candarali.ttf
+2022-08-28 14:26:00,228 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\Candaraz.ttf
+2022-08-28 14:26:00,229 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\Candaraz.ttf
+2022-08-28 14:26:00,229 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\CENTAUR.TTF
+2022-08-28 14:26:00,230 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\CENTAUR.TTF
+2022-08-28 14:26:00,230 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\CENTURY.TTF
+2022-08-28 14:26:00,230 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\CENTURY.TTF
+2022-08-28 14:26:00,231 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga40737.fon
+2022-08-28 14:26:00,231 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga40850.fon
+2022-08-28 14:26:00,232 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga40852.fon
+2022-08-28 14:26:00,232 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga40857.fon
+2022-08-28 14:26:00,233 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga40866.fon
+2022-08-28 14:26:00,233 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga40869.fon
+2022-08-28 14:26:00,234 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga40woa.fon
+2022-08-28 14:26:00,234 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga80737.fon
+2022-08-28 14:26:00,235 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga80850.fon
+2022-08-28 14:26:00,235 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga80852.fon
+2022-08-28 14:26:00,236 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga80857.fon
+2022-08-28 14:26:00,238 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga80866.fon
+2022-08-28 14:26:00,239 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga80869.fon
+2022-08-28 14:26:00,239 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga80woa.fon
+2022-08-28 14:26:00,240 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\CHILLER.TTF
+2022-08-28 14:26:00,241 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\CHILLER.TTF
+2022-08-28 14:26:00,241 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\COLONNA.TTF
+2022-08-28 14:26:00,242 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\COLONNA.TTF
+2022-08-28 14:26:00,242 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\comic.ttf
+2022-08-28 14:26:00,243 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\comic.ttf
+2022-08-28 14:26:00,243 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\comicbd.ttf
+2022-08-28 14:26:00,244 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\comicbd.ttf
+2022-08-28 14:26:00,244 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\comici.ttf
+2022-08-28 14:26:00,245 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\comici.ttf
+2022-08-28 14:26:00,246 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\comicz.ttf
+2022-08-28 14:26:00,247 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\comicz.ttf
+2022-08-28 14:26:00,247 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\consola.ttf
+2022-08-28 14:26:00,247 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\consola.ttf
+2022-08-28 14:26:00,248 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\consolab.ttf
+2022-08-28 14:26:00,248 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\consolab.ttf
+2022-08-28 14:26:00,249 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\consolai.ttf
+2022-08-28 14:26:00,249 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\consolai.ttf
+2022-08-28 14:26:00,250 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\consolaz.ttf
+2022-08-28 14:26:00,250 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\consolaz.ttf
+2022-08-28 14:26:00,251 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\constan.ttf
+2022-08-28 14:26:00,251 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\constan.ttf
+2022-08-28 14:26:00,252 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\constanb.ttf
+2022-08-28 14:26:00,252 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\constanb.ttf
+2022-08-28 14:26:00,253 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\constani.ttf
+2022-08-28 14:26:00,253 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\constani.ttf
+2022-08-28 14:26:00,254 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\constanz.ttf
+2022-08-28 14:26:00,254 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\constanz.ttf
+2022-08-28 14:26:00,255 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\COOPBL.TTF
+2022-08-28 14:26:00,255 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\COOPBL.TTF
+2022-08-28 14:26:00,255 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\corbel.ttf
+2022-08-28 14:26:00,256 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\corbel.ttf
+2022-08-28 14:26:00,256 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\corbelb.ttf
+2022-08-28 14:26:00,256 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\corbelb.ttf
+2022-08-28 14:26:00,258 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\corbeli.ttf
+2022-08-28 14:26:00,258 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\corbeli.ttf
+2022-08-28 14:26:00,259 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\corbell.ttf
+2022-08-28 14:26:00,259 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\corbell.ttf
+2022-08-28 14:26:00,260 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\corbelli.ttf
+2022-08-28 14:26:00,260 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\corbelli.ttf
+2022-08-28 14:26:00,260 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\corbelz.ttf
+2022-08-28 14:26:00,261 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\corbelz.ttf
+2022-08-28 14:26:00,261 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\coue1255.fon
+2022-08-28 14:26:00,262 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\coue1256.fon
+2022-08-28 14:26:00,263 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\coue1257.fon
+2022-08-28 14:26:00,263 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\couf1255.fon
+2022-08-28 14:26:00,264 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\couf1256.fon
+2022-08-28 14:26:00,264 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\couf1257.fon
+2022-08-28 14:26:00,265 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cour.ttf
+2022-08-28 14:26:00,265 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\cour.ttf
+2022-08-28 14:26:00,265 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\courbd.ttf
+2022-08-28 14:26:00,266 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\courbd.ttf
+2022-08-28 14:26:00,266 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\courbi.ttf
+2022-08-28 14:26:00,266 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\courbi.ttf
+2022-08-28 14:26:00,267 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\coure.fon
+2022-08-28 14:26:00,267 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\couree.fon
+2022-08-28 14:26:00,268 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\coureg.fon
+2022-08-28 14:26:00,268 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\courer.fon
+2022-08-28 14:26:00,268 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\couret.fon
+2022-08-28 14:26:00,269 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\courf.fon
+2022-08-28 14:26:00,269 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\courfe.fon
+2022-08-28 14:26:00,269 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\courfg.fon
+2022-08-28 14:26:00,270 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\courfr.fon
+2022-08-28 14:26:00,270 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\courft.fon
+2022-08-28 14:26:00,271 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\couri.ttf
+2022-08-28 14:26:00,271 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\couri.ttf
+2022-08-28 14:26:00,271 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cvgafix.fon
+2022-08-28 14:26:00,272 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cvgasys.fon
+2022-08-28 14:26:00,272 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\desktop.ini
+2022-08-28 14:26:00,272 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\dos737.fon
+2022-08-28 14:26:00,273 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\dos869.fon
+2022-08-28 14:26:00,273 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\dosapp.fon
+2022-08-28 14:26:00,274 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ebrima.ttf
+2022-08-28 14:26:00,274 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\ebrima.ttf
+2022-08-28 14:26:00,275 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ebrimabd.ttf
+2022-08-28 14:26:00,275 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\ebrimabd.ttf
+2022-08-28 14:26:00,276 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega40737.fon
+2022-08-28 14:26:00,276 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega40850.fon
+2022-08-28 14:26:00,277 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega40852.fon
+2022-08-28 14:26:00,277 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega40857.fon
+2022-08-28 14:26:00,277 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega40866.fon
+2022-08-28 14:26:00,278 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega40869.fon
+2022-08-28 14:26:00,279 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega40woa.fon
+2022-08-28 14:26:00,280 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega80737.fon
+2022-08-28 14:26:00,280 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega80850.fon
+2022-08-28 14:26:00,280 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega80852.fon
+2022-08-28 14:26:00,281 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega80857.fon
+2022-08-28 14:26:00,281 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega80866.fon
+2022-08-28 14:26:00,282 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega80869.fon
+2022-08-28 14:26:00,282 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega80woa.fon
+2022-08-28 14:26:00,282 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\fms_metadata.xml
+2022-08-28 14:26:00,283 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\framd.ttf
+2022-08-28 14:26:00,283 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\framd.ttf
+2022-08-28 14:26:00,283 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\framdit.ttf
+2022-08-28 14:26:00,284 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\framdit.ttf
+2022-08-28 14:26:00,284 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\FREESCPT.TTF
+2022-08-28 14:26:00,285 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\FREESCPT.TTF
+2022-08-28 14:26:00,285 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\FTLTLT.TTF
+2022-08-28 14:26:00,285 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\FTLTLT.TTF
+2022-08-28 14:26:00,286 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\Gabriola.ttf
+2022-08-28 14:26:00,286 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\Gabriola.ttf
+2022-08-28 14:26:00,287 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\gadugi.ttf
+2022-08-28 14:26:00,287 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\gadugi.ttf
+2022-08-28 14:26:00,287 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\gadugib.ttf
+2022-08-28 14:26:00,288 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\gadugib.ttf
+2022-08-28 14:26:00,288 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\GARA.TTF
+2022-08-28 14:26:00,288 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\GARA.TTF
+2022-08-28 14:26:00,289 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\GARABD.TTF
+2022-08-28 14:26:00,289 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\GARABD.TTF
+2022-08-28 14:26:00,290 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\GARAIT.TTF
+2022-08-28 14:26:00,290 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\GARAIT.TTF
+2022-08-28 14:26:00,290 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\georgia.ttf
+2022-08-28 14:26:00,291 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\georgia.ttf
+2022-08-28 14:26:00,291 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\georgiab.ttf
+2022-08-28 14:26:00,291 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\georgiab.ttf
+2022-08-28 14:26:00,292 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\georgiai.ttf
+2022-08-28 14:26:00,293 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\georgiai.ttf
+2022-08-28 14:26:00,293 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\georgiaz.ttf
+2022-08-28 14:26:00,294 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\georgiaz.ttf
+2022-08-28 14:26:00,294 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\GOTHIC.TTF
+2022-08-28 14:26:00,294 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\GOTHIC.TTF
+2022-08-28 14:26:00,295 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\GOTHICB.TTF
+2022-08-28 14:26:00,295 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\GOTHICB.TTF
+2022-08-28 14:26:00,296 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\GOTHICBI.TTF
+2022-08-28 14:26:00,296 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\GOTHICBI.TTF
+2022-08-28 14:26:00,297 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\GOTHICI.TTF
+2022-08-28 14:26:00,297 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\GOTHICI.TTF
+2022-08-28 14:26:00,298 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\h8514fix.fon
+2022-08-28 14:26:00,298 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\h8514oem.fon
+2022-08-28 14:26:00,300 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\h8514sys.fon
+2022-08-28 14:26:00,300 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\HARLOWSI.TTF
+2022-08-28 14:26:00,301 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\HARLOWSI.TTF
+2022-08-28 14:26:00,301 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\HARNGTON.TTF
+2022-08-28 14:26:00,302 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\HARNGTON.TTF
+2022-08-28 14:26:00,302 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\HATTEN.TTF
+2022-08-28 14:26:00,303 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\HATTEN.TTF
+2022-08-28 14:26:00,304 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\himalaya.ttf
+2022-08-28 14:26:00,304 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\himalaya.ttf
+2022-08-28 14:26:00,305 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\holomdl2.ttf
+2022-08-28 14:26:00,305 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\holomdl2.ttf
+2022-08-28 14:26:00,306 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\HTOWERT.TTF
+2022-08-28 14:26:00,306 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\HTOWERT.TTF
+2022-08-28 14:26:00,307 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\HTOWERTI.TTF
+2022-08-28 14:26:00,308 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\HTOWERTI.TTF
+2022-08-28 14:26:00,308 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\hvgafix.fon
+2022-08-28 14:26:00,309 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\hvgasys.fon
+2022-08-28 14:26:00,310 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\impact.ttf
+2022-08-28 14:26:00,310 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\impact.ttf
+2022-08-28 14:26:00,311 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\INFROMAN.TTF
+2022-08-28 14:26:00,312 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\INFROMAN.TTF
+2022-08-28 14:26:00,312 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\Inkfree.ttf
+2022-08-28 14:26:00,313 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\Inkfree.ttf
+2022-08-28 14:26:00,314 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ITCKRIST.TTF
+2022-08-28 14:26:00,314 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\ITCKRIST.TTF
+2022-08-28 14:26:00,315 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\j8514fix.fon
+2022-08-28 14:26:00,316 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\j8514oem.fon
+2022-08-28 14:26:00,316 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\j8514sys.fon
+2022-08-28 14:26:00,317 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\javatext.ttf
+2022-08-28 14:26:00,317 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\javatext.ttf
+2022-08-28 14:26:00,318 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\JOKERMAN.TTF
+2022-08-28 14:26:00,319 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\JOKERMAN.TTF
+2022-08-28 14:26:00,320 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\jsmalle.fon
+2022-08-28 14:26:00,321 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\jsmallf.fon
+2022-08-28 14:26:00,321 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\JUICE___.TTF
+2022-08-28 14:26:00,322 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\JUICE___.TTF
+2022-08-28 14:26:00,322 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\jvgafix.fon
+2022-08-28 14:26:00,323 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\jvgasys.fon
+2022-08-28 14:26:00,323 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\KUNSTLER.TTF
+2022-08-28 14:26:00,324 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\KUNSTLER.TTF
+2022-08-28 14:26:00,325 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\LATINWD.TTF
+2022-08-28 14:26:00,325 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\LATINWD.TTF
+2022-08-28 14:26:00,326 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\LBRITE.TTF
+2022-08-28 14:26:00,326 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\LBRITE.TTF
+2022-08-28 14:26:00,327 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\LBRITED.TTF
+2022-08-28 14:26:00,327 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\LBRITED.TTF
+2022-08-28 14:26:00,327 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\LBRITEDI.TTF
+2022-08-28 14:26:00,328 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\LBRITEDI.TTF
+2022-08-28 14:26:00,328 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\LBRITEI.TTF
+2022-08-28 14:26:00,329 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\LBRITEI.TTF
+2022-08-28 14:26:00,329 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\LCALLIG.TTF
+2022-08-28 14:26:00,330 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\LCALLIG.TTF
+2022-08-28 14:26:00,330 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\LeelaUIb.ttf
+2022-08-28 14:26:00,330 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\LeelaUIb.ttf
+2022-08-28 14:26:00,331 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\LeelawUI.ttf
+2022-08-28 14:26:00,331 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\LeelawUI.ttf
+2022-08-28 14:26:00,332 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\LeelUIsl.ttf
+2022-08-28 14:26:00,332 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\LeelUIsl.ttf
+2022-08-28 14:26:00,333 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\LFAX.TTF
+2022-08-28 14:26:00,333 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\LFAX.TTF
+2022-08-28 14:26:00,334 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\LFAXD.TTF
+2022-08-28 14:26:00,334 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\LFAXD.TTF
+2022-08-28 14:26:00,335 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\LFAXDI.TTF
+2022-08-28 14:26:00,335 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\LFAXDI.TTF
+2022-08-28 14:26:00,336 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\LFAXI.TTF
+2022-08-28 14:26:00,336 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\LFAXI.TTF
+2022-08-28 14:26:00,336 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\LHANDW.TTF
+2022-08-28 14:26:00,337 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\LHANDW.TTF
+2022-08-28 14:26:00,337 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\lucon.ttf
+2022-08-28 14:26:00,338 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\lucon.ttf
+2022-08-28 14:26:00,339 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\l_10646.ttf
+2022-08-28 14:26:00,339 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\l_10646.ttf
+2022-08-28 14:26:00,340 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\MAGNETOB.TTF
+2022-08-28 14:26:00,341 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\MAGNETOB.TTF
+2022-08-28 14:26:00,342 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\malgun.ttf
+2022-08-28 14:26:00,343 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\malgun.ttf
+2022-08-28 14:26:00,344 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\malgunbd.ttf
+2022-08-28 14:26:00,344 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\malgunbd.ttf
+2022-08-28 14:26:00,345 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\malgunsl.ttf
+2022-08-28 14:26:00,346 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\malgunsl.ttf
+2022-08-28 14:26:00,347 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\marlett.ttf
+2022-08-28 14:26:00,347 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\marlett.ttf
+2022-08-28 14:26:00,352 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\MATURASC.TTF
+2022-08-28 14:26:00,352 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\MATURASC.TTF
+2022-08-28 14:26:00,353 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\micross.ttf
+2022-08-28 14:26:00,353 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\micross.ttf
+2022-08-28 14:26:00,354 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\mingliub.ttc
+2022-08-28 14:26:00,354 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\mingliub.ttc
+2022-08-28 14:26:00,354 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\MISTRAL.TTF
+2022-08-28 14:26:00,355 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\MISTRAL.TTF
+2022-08-28 14:26:00,356 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\mmrtext.ttf
+2022-08-28 14:26:00,356 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\mmrtext.ttf
+2022-08-28 14:26:00,357 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\mmrtextb.ttf
+2022-08-28 14:26:00,357 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\mmrtextb.ttf
+2022-08-28 14:26:00,358 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\MOD20.TTF
+2022-08-28 14:26:00,358 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\MOD20.TTF
+2022-08-28 14:26:00,359 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\modern.fon
+2022-08-28 14:26:00,359 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\monbaiti.ttf
+2022-08-28 14:26:00,359 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\monbaiti.ttf
+2022-08-28 14:26:00,360 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\msgothic.ttc
+2022-08-28 14:26:00,360 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\msgothic.ttc
+2022-08-28 14:26:00,360 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\msjh.ttc
+2022-08-28 14:26:00,361 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\msjh.ttc
+2022-08-28 14:26:00,362 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\msjhbd.ttc
+2022-08-28 14:26:00,362 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\msjhbd.ttc
+2022-08-28 14:26:00,363 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\msjhl.ttc
+2022-08-28 14:26:00,363 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\msjhl.ttc
+2022-08-28 14:26:00,364 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\MSMINCHO.TTF
+2022-08-28 14:26:00,364 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\MSMINCHO.TTF
+2022-08-28 14:26:00,365 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\msyh.ttc
+2022-08-28 14:26:00,365 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\msyh.ttc
+2022-08-28 14:26:00,365 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\msyhbd.ttc
+2022-08-28 14:26:00,366 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\msyhbd.ttc
+2022-08-28 14:26:00,366 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\msyhl.ttc
+2022-08-28 14:26:00,366 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\msyhl.ttc
+2022-08-28 14:26:00,367 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\msyi.ttf
+2022-08-28 14:26:00,367 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\msyi.ttf
+2022-08-28 14:26:00,368 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\MTCORSVA.TTF
+2022-08-28 14:26:00,368 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\MTCORSVA.TTF
+2022-08-28 14:26:00,369 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\mvboli.ttf
+2022-08-28 14:26:00,369 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\mvboli.ttf
+2022-08-28 14:26:00,370 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\NIAGENG.TTF
+2022-08-28 14:26:00,370 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\NIAGENG.TTF
+2022-08-28 14:26:00,371 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\NIAGSOL.TTF
+2022-08-28 14:26:00,371 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\NIAGSOL.TTF
+2022-08-28 14:26:00,372 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\Nirmala.ttf
+2022-08-28 14:26:00,372 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\Nirmala.ttf
+2022-08-28 14:26:00,373 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\NirmalaB.ttf
+2022-08-28 14:26:00,373 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\NirmalaB.ttf
+2022-08-28 14:26:00,374 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\NirmalaS.ttf
+2022-08-28 14:26:00,374 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\NirmalaS.ttf
+2022-08-28 14:26:00,375 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ntailu.ttf
+2022-08-28 14:26:00,375 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\ntailu.ttf
+2022-08-28 14:26:00,375 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ntailub.ttf
+2022-08-28 14:26:00,376 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\ntailub.ttf
+2022-08-28 14:26:00,376 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\OLDENGL.TTF
+2022-08-28 14:26:00,376 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\OLDENGL.TTF
+2022-08-28 14:26:00,377 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ONYX.TTF
+2022-08-28 14:26:00,377 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\ONYX.TTF
+2022-08-28 14:26:00,377 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\OUTLOOK.TTF
+2022-08-28 14:26:00,378 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\OUTLOOK.TTF
+2022-08-28 14:26:00,378 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\pala.ttf
+2022-08-28 14:26:00,378 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\pala.ttf
+2022-08-28 14:26:00,379 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\palab.ttf
+2022-08-28 14:26:00,379 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\palab.ttf
+2022-08-28 14:26:00,380 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\palabi.ttf
+2022-08-28 14:26:00,380 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\palabi.ttf
+2022-08-28 14:26:00,380 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\palai.ttf
+2022-08-28 14:26:00,381 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\palai.ttf
+2022-08-28 14:26:00,381 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\PARCHM.TTF
+2022-08-28 14:26:00,381 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\PARCHM.TTF
+2022-08-28 14:26:00,382 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\phagspa.ttf
+2022-08-28 14:26:00,383 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\phagspa.ttf
+2022-08-28 14:26:00,384 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\phagspab.ttf
+2022-08-28 14:26:00,384 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\phagspab.ttf
+2022-08-28 14:26:00,385 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\PLAYBILL.TTF
+2022-08-28 14:26:00,385 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\PLAYBILL.TTF
+2022-08-28 14:26:00,385 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\POORICH.TTF
+2022-08-28 14:26:00,386 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\POORICH.TTF
+2022-08-28 14:26:00,386 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\RAVIE.TTF
+2022-08-28 14:26:00,386 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\RAVIE.TTF
+2022-08-28 14:26:00,387 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\REFSAN.TTF
+2022-08-28 14:26:00,387 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\REFSAN.TTF
+2022-08-28 14:26:00,388 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\REFSPCL.TTF
+2022-08-28 14:26:00,388 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\REFSPCL.TTF
+2022-08-28 14:26:00,388 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\roman.fon
+2022-08-28 14:26:00,389 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\s8514fix.fon
+2022-08-28 14:26:00,389 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\s8514oem.fon
+2022-08-28 14:26:00,389 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\s8514sys.fon
+2022-08-28 14:26:00,390 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\script.fon
+2022-08-28 14:26:00,390 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\segmdl2.ttf
+2022-08-28 14:26:00,390 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\segmdl2.ttf
+2022-08-28 14:26:00,391 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\segoepr.ttf
+2022-08-28 14:26:00,391 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\segoepr.ttf
+2022-08-28 14:26:00,392 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\segoeprb.ttf
+2022-08-28 14:26:00,392 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\segoeprb.ttf
+2022-08-28 14:26:00,392 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\segoesc.ttf
+2022-08-28 14:26:00,393 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\segoesc.ttf
+2022-08-28 14:26:00,393 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\segoescb.ttf
+2022-08-28 14:26:00,393 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\segoescb.ttf
+2022-08-28 14:26:00,394 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\segoeui.ttf
+2022-08-28 14:26:00,394 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\segoeui.ttf
+2022-08-28 14:26:00,395 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\segoeuib.ttf
+2022-08-28 14:26:00,395 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\segoeuib.ttf
+2022-08-28 14:26:00,395 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\segoeuii.ttf
+2022-08-28 14:26:00,396 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\segoeuii.ttf
+2022-08-28 14:26:00,396 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\segoeuil.ttf
+2022-08-28 14:26:00,396 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\segoeuil.ttf
+2022-08-28 14:26:00,397 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\segoeuisl.ttf
+2022-08-28 14:26:00,397 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\segoeuisl.ttf
+2022-08-28 14:26:00,397 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\segoeuiz.ttf
+2022-08-28 14:26:00,398 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\segoeuiz.ttf
+2022-08-28 14:26:00,398 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seguibl.ttf
+2022-08-28 14:26:00,398 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\seguibl.ttf
+2022-08-28 14:26:00,399 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seguibli.ttf
+2022-08-28 14:26:00,399 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\seguibli.ttf
+2022-08-28 14:26:00,400 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seguiemj.ttf
+2022-08-28 14:26:00,400 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\seguiemj.ttf
+2022-08-28 14:26:00,400 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seguihis.ttf
+2022-08-28 14:26:00,401 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\seguihis.ttf
+2022-08-28 14:26:00,401 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seguili.ttf
+2022-08-28 14:26:00,401 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\seguili.ttf
+2022-08-28 14:26:00,402 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seguisb.ttf
+2022-08-28 14:26:00,402 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\seguisb.ttf
+2022-08-28 14:26:00,402 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seguisbi.ttf
+2022-08-28 14:26:00,404 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\seguisbi.ttf
+2022-08-28 14:26:00,405 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seguisli.ttf
+2022-08-28 14:26:00,406 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\seguisli.ttf
+2022-08-28 14:26:00,406 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seguisym.ttf
+2022-08-28 14:26:00,407 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\seguisym.ttf
+2022-08-28 14:26:00,408 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sere1255.fon
+2022-08-28 14:26:00,408 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sere1256.fon
+2022-08-28 14:26:00,409 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sere1257.fon
+2022-08-28 14:26:00,409 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\serf1255.fon
+2022-08-28 14:26:00,409 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\serf1256.fon
+2022-08-28 14:26:00,410 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\serf1257.fon
+2022-08-28 14:26:00,410 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\serife.fon
+2022-08-28 14:26:00,411 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\serifee.fon
+2022-08-28 14:26:00,411 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\serifeg.fon
+2022-08-28 14:26:00,412 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\serifer.fon
+2022-08-28 14:26:00,412 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\serifet.fon
+2022-08-28 14:26:00,413 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seriff.fon
+2022-08-28 14:26:00,413 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seriffe.fon
+2022-08-28 14:26:00,413 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seriffg.fon
+2022-08-28 14:26:00,414 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seriffr.fon
+2022-08-28 14:26:00,414 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\serifft.fon
+2022-08-28 14:26:00,415 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\SHOWG.TTF
+2022-08-28 14:26:00,415 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\SHOWG.TTF
+2022-08-28 14:26:00,416 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\simsun.ttc
+2022-08-28 14:26:00,416 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\simsun.ttc
+2022-08-28 14:26:00,417 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\simsunb.ttf
+2022-08-28 14:26:00,417 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\simsunb.ttf
+2022-08-28 14:26:00,417 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\Sitka.ttc
+2022-08-28 14:26:00,418 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\Sitka.ttc
+2022-08-28 14:26:00,418 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\SitkaB.ttc
+2022-08-28 14:26:00,419 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\SitkaB.ttc
+2022-08-28 14:26:00,420 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\SitkaI.ttc
+2022-08-28 14:26:00,420 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\SitkaI.ttc
+2022-08-28 14:26:00,421 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\SitkaZ.ttc
+2022-08-28 14:26:00,421 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\SitkaZ.ttc
+2022-08-28 14:26:00,422 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smae1255.fon
+2022-08-28 14:26:00,422 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smae1256.fon
+2022-08-28 14:26:00,423 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smae1257.fon
+2022-08-28 14:26:00,426 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smaf1255.fon
+2022-08-28 14:26:00,427 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smaf1256.fon
+2022-08-28 14:26:00,427 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smaf1257.fon
+2022-08-28 14:26:00,428 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smalle.fon
+2022-08-28 14:26:00,429 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smallee.fon
+2022-08-28 14:26:00,429 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smalleg.fon
+2022-08-28 14:26:00,430 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smaller.fon
+2022-08-28 14:26:00,431 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smallet.fon
+2022-08-28 14:26:00,431 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smallf.fon
+2022-08-28 14:26:00,432 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smallfe.fon
+2022-08-28 14:26:00,432 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smallfg.fon
+2022-08-28 14:26:00,433 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smallfr.fon
+2022-08-28 14:26:00,434 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smallft.fon
+2022-08-28 14:26:00,434 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\SNAP____.TTF
+2022-08-28 14:26:00,435 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\SNAP____.TTF
+2022-08-28 14:26:00,436 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ssee1255.fon
+2022-08-28 14:26:00,436 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ssee1256.fon
+2022-08-28 14:26:00,437 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ssee1257.fon
+2022-08-28 14:26:00,437 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ssee874.fon
+2022-08-28 14:26:00,438 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ssef1255.fon
+2022-08-28 14:26:00,438 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ssef1256.fon
+2022-08-28 14:26:00,439 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ssef1257.fon
+2022-08-28 14:26:00,440 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ssef874.fon
+2022-08-28 14:26:00,440 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sserife.fon
+2022-08-28 14:26:00,441 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sserifee.fon
+2022-08-28 14:26:00,441 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sserifeg.fon
+2022-08-28 14:26:00,442 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sserifer.fon
+2022-08-28 14:26:00,442 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sserifet.fon
+2022-08-28 14:26:00,443 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sseriff.fon
+2022-08-28 14:26:00,443 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sseriffe.fon
+2022-08-28 14:26:00,444 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sseriffg.fon
+2022-08-28 14:26:00,444 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sseriffr.fon
+2022-08-28 14:26:00,446 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sserifft.fon
+2022-08-28 14:26:00,447 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\StaticCache.dat
+2022-08-28 14:26:00,448 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\STENCIL.TTF
+2022-08-28 14:26:00,448 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\STENCIL.TTF
+2022-08-28 14:26:00,449 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\svgafix.fon
+2022-08-28 14:26:00,449 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\svgasys.fon
+2022-08-28 14:26:00,450 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sylfaen.ttf
+2022-08-28 14:26:00,450 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\sylfaen.ttf
+2022-08-28 14:26:00,451 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\symbol.ttf
+2022-08-28 14:26:00,451 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\symbol.ttf
+2022-08-28 14:26:00,452 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\tahoma.ttf
+2022-08-28 14:26:00,452 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\tahoma.ttf
+2022-08-28 14:26:00,453 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\tahomabd.ttf
+2022-08-28 14:26:00,454 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\tahomabd.ttf
+2022-08-28 14:26:00,454 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\taile.ttf
+2022-08-28 14:26:00,455 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\taile.ttf
+2022-08-28 14:26:00,455 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\taileb.ttf
+2022-08-28 14:26:00,456 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\taileb.ttf
+2022-08-28 14:26:00,457 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\TEMPSITC.TTF
+2022-08-28 14:26:00,457 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\TEMPSITC.TTF
+2022-08-28 14:26:00,458 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\times.ttf
+2022-08-28 14:26:00,458 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\times.ttf
+2022-08-28 14:26:00,459 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\timesbd.ttf
+2022-08-28 14:26:00,459 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\timesbd.ttf
+2022-08-28 14:26:00,460 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\timesbi.ttf
+2022-08-28 14:26:00,460 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\timesbi.ttf
+2022-08-28 14:26:00,461 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\timesi.ttf
+2022-08-28 14:26:00,462 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\timesi.ttf
+2022-08-28 14:26:00,462 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\trebuc.ttf
+2022-08-28 14:26:00,463 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\trebuc.ttf
+2022-08-28 14:26:00,463 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\trebucbd.ttf
+2022-08-28 14:26:00,464 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\trebucbd.ttf
+2022-08-28 14:26:00,465 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\trebucbi.ttf
+2022-08-28 14:26:00,469 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\trebucbi.ttf
+2022-08-28 14:26:00,470 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\trebucit.ttf
+2022-08-28 14:26:00,470 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\trebucit.ttf
+2022-08-28 14:26:00,471 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\verdana.ttf
+2022-08-28 14:26:00,471 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\verdana.ttf
+2022-08-28 14:26:00,472 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\verdanab.ttf
+2022-08-28 14:26:00,472 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\verdanab.ttf
+2022-08-28 14:26:00,473 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\verdanai.ttf
+2022-08-28 14:26:00,473 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\verdanai.ttf
+2022-08-28 14:26:00,474 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\verdanaz.ttf
+2022-08-28 14:26:00,475 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\verdanaz.ttf
+2022-08-28 14:26:00,475 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga737.fon
+2022-08-28 14:26:00,476 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga775.fon
+2022-08-28 14:26:00,476 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga850.fon
+2022-08-28 14:26:00,477 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga852.fon
+2022-08-28 14:26:00,477 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga855.fon
+2022-08-28 14:26:00,478 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga857.fon
+2022-08-28 14:26:00,478 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga860.fon
+2022-08-28 14:26:00,479 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga861.fon
+2022-08-28 14:26:00,479 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga863.fon
+2022-08-28 14:26:00,480 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga865.fon
+2022-08-28 14:26:00,481 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga866.fon
+2022-08-28 14:26:00,481 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga869.fon
+2022-08-28 14:26:00,482 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga932.fon
+2022-08-28 14:26:00,483 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga936.fon
+2022-08-28 14:26:00,484 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga949.fon
+2022-08-28 14:26:00,484 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga950.fon
+2022-08-28 14:26:00,485 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgaf1255.fon
+2022-08-28 14:26:00,486 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgaf1256.fon
+2022-08-28 14:26:00,490 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgaf1257.fon
+2022-08-28 14:26:00,490 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgaf874.fon
+2022-08-28 14:26:00,491 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgafix.fon
+2022-08-28 14:26:00,492 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgafixe.fon
+2022-08-28 14:26:00,493 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgafixg.fon
+2022-08-28 14:26:00,493 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgafixr.fon
+2022-08-28 14:26:00,494 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgafixt.fon
+2022-08-28 14:26:00,495 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgaoem.fon
+2022-08-28 14:26:00,496 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgas1255.fon
+2022-08-28 14:26:00,497 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgas1256.fon
+2022-08-28 14:26:00,498 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgas1257.fon
+2022-08-28 14:26:00,498 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgas874.fon
+2022-08-28 14:26:00,500 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgasys.fon
+2022-08-28 14:26:00,501 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgasyse.fon
+2022-08-28 14:26:00,501 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgasysg.fon
+2022-08-28 14:26:00,502 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgasysr.fon
+2022-08-28 14:26:00,502 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgasyst.fon
+2022-08-28 14:26:00,503 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\VINERITC.TTF
+2022-08-28 14:26:00,503 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\VINERITC.TTF
+2022-08-28 14:26:00,504 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\VIVALDII.TTF
+2022-08-28 14:26:00,504 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\VIVALDII.TTF
+2022-08-28 14:26:00,505 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\VLADIMIR.TTF
+2022-08-28 14:26:00,506 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\VLADIMIR.TTF
+2022-08-28 14:26:00,506 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\webdings.ttf
+2022-08-28 14:26:00,509 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\webdings.ttf
+2022-08-28 14:26:00,510 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\wingding.ttf
+2022-08-28 14:26:00,511 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\wingding.ttf
+2022-08-28 14:26:00,512 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\WINGDNG2.TTF
+2022-08-28 14:26:00,513 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\WINGDNG2.TTF
+2022-08-28 14:26:00,514 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\WINGDNG3.TTF
+2022-08-28 14:26:00,515 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\WINGDNG3.TTF
+2022-08-28 14:26:00,516 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\YuGothB.ttc
+2022-08-28 14:26:00,516 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\YuGothB.ttc
+2022-08-28 14:26:00,517 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\YuGothL.ttc
+2022-08-28 14:26:00,518 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\YuGothL.ttc
+2022-08-28 14:26:00,519 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\YuGothM.ttc
+2022-08-28 14:26:00,519 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\YuGothM.ttc
+2022-08-28 14:26:00,520 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\YuGothR.ttc
+2022-08-28 14:26:00,520 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\YuGothR.ttc
+2022-08-28 14:26:00,627 DEBUG [main] FontMapperImpl:484 - getFont('TTF','TimesNewRomanPSMT') returns TimesNewRomanPSMT (TTF, mac: 0x0, os/2: 0x105, cid: null) C:\WINDOWS\FONTS\times.ttf
+2022-08-28 14:26:00,640 DEBUG [main] FileSystemFontProvider:198 - Loaded TimesNewRomanPSMT from C:\WINDOWS\FONTS\times.ttf
+2022-08-28 14:26:00,669 DEBUG [main] FontMapperImpl:484 - getFont('TTF','TimesNewRomanPS-BoldMT') returns TimesNewRomanPS-BoldMT (TTF, mac: 0x1, os/2: 0x105, cid: null) C:\WINDOWS\FONTS\timesbd.ttf
+2022-08-28 14:26:00,674 DEBUG [main] FileSystemFontProvider:198 - Loaded TimesNewRomanPS-BoldMT from C:\WINDOWS\FONTS\timesbd.ttf
+2022-08-28 14:26:00,680 DEBUG [main] FontMapperImpl:484 - getFont('TTF','TimesNewRomanPS-ItalicMT') returns TimesNewRomanPS-ItalicMT (TTF, mac: 0x2, os/2: 0x105, cid: null) C:\WINDOWS\FONTS\timesi.ttf
+2022-08-28 14:26:00,692 DEBUG [main] FileSystemFontProvider:198 - Loaded TimesNewRomanPS-ItalicMT from C:\WINDOWS\FONTS\timesi.ttf
+2022-08-28 14:26:00,699 DEBUG [main] FontMapperImpl:484 - getFont('TTF','TimesNewRomanPS-BoldItalicMT') returns TimesNewRomanPS-BoldItalicMT (TTF, mac: 0x3, os/2: 0x105, cid: null) C:\WINDOWS\FONTS\timesbi.ttf
+2022-08-28 14:26:00,709 DEBUG [main] FileSystemFontProvider:198 - Loaded TimesNewRomanPS-BoldItalicMT from C:\WINDOWS\FONTS\timesbi.ttf
+2022-08-28 14:26:00,721 DEBUG [main] FontMapperImpl:484 - getFont('TTF','ArialMT') returns ArialMT (TTF, mac: 0x0, os/2: 0x805, cid: null) C:\WINDOWS\FONTS\arial.ttf
+2022-08-28 14:26:00,725 DEBUG [main] FileSystemFontProvider:198 - Loaded ArialMT from C:\WINDOWS\FONTS\arial.ttf
+2022-08-28 14:26:00,766 DEBUG [main] FontMapperImpl:484 - getFont('TTF','Arial-BoldMT') returns Arial-BoldMT (TTF, mac: 0x1, os/2: 0x805, cid: null) C:\WINDOWS\FONTS\arialbd.ttf
+2022-08-28 14:26:00,771 DEBUG [main] FileSystemFontProvider:198 - Loaded Arial-BoldMT from C:\WINDOWS\FONTS\arialbd.ttf
+2022-08-28 14:26:00,788 DEBUG [main] FontMapperImpl:484 - getFont('TTF','Arial-ItalicMT') returns Arial-ItalicMT (TTF, mac: 0x2, os/2: 0x805, cid: null) C:\WINDOWS\FONTS\ariali.ttf
+2022-08-28 14:26:00,803 DEBUG [main] FileSystemFontProvider:198 - Loaded Arial-ItalicMT from C:\WINDOWS\FONTS\ariali.ttf
+2022-08-28 14:26:00,808 DEBUG [main] FontMapperImpl:484 - getFont('TTF','Arial-BoldItalicMT') returns Arial-BoldItalicMT (TTF, mac: 0x3, os/2: 0x805, cid: null) C:\WINDOWS\FONTS\arialbi.ttf
+2022-08-28 14:26:00,827 DEBUG [main] FileSystemFontProvider:198 - Loaded Arial-BoldItalicMT from C:\WINDOWS\FONTS\arialbi.ttf
+2022-08-28 14:26:00,830 DEBUG [main] FontMapperImpl:484 - getFont('TTF','CourierNewPSMT') returns CourierNewPSMT (TTF, mac: 0x0, os/2: 0x505, cid: null) C:\WINDOWS\FONTS\cour.ttf
+2022-08-28 14:26:00,833 DEBUG [main] FileSystemFontProvider:198 - Loaded CourierNewPSMT from C:\WINDOWS\FONTS\cour.ttf
+2022-08-28 14:26:00,836 DEBUG [main] FontMapperImpl:484 - getFont('TTF','CourierNewPS-BoldMT') returns CourierNewPS-BoldMT (TTF, mac: 0x1, os/2: 0x505, cid: null) C:\WINDOWS\FONTS\courbd.ttf
+2022-08-28 14:26:00,851 DEBUG [main] FileSystemFontProvider:198 - Loaded CourierNewPS-BoldMT from C:\WINDOWS\FONTS\courbd.ttf
+2022-08-28 14:26:00,853 DEBUG [main] FontMapperImpl:484 - getFont('TTF','CourierNewPS-ItalicMT') returns CourierNewPS-ItalicMT (TTF, mac: 0x2, os/2: 0x505, cid: null) C:\WINDOWS\FONTS\couri.ttf
+2022-08-28 14:26:00,870 DEBUG [main] FileSystemFontProvider:198 - Loaded CourierNewPS-ItalicMT from C:\WINDOWS\FONTS\couri.ttf
+2022-08-28 14:26:00,872 DEBUG [main] FontMapperImpl:484 - getFont('TTF','CourierNewPS-BoldItalicMT') returns CourierNewPS-BoldItalicMT (TTF, mac: 0x3, os/2: 0x505, cid: null) C:\WINDOWS\FONTS\courbi.ttf
+2022-08-28 14:26:00,886 DEBUG [main] FileSystemFontProvider:198 - Loaded CourierNewPS-BoldItalicMT from C:\WINDOWS\FONTS\courbi.ttf
+2022-08-28 14:26:00,896 DEBUG [main] FontMapperImpl:484 - getFont('TTF','SymbolMT') returns SymbolMT (TTF, mac: 0x0, os/2: 0xc03, cid: null) C:\WINDOWS\FONTS\symbol.ttf
+2022-08-28 14:26:00,913 DEBUG [main] FileSystemFontProvider:198 - Loaded SymbolMT from C:\WINDOWS\FONTS\symbol.ttf
+2022-08-28 14:26:00,916 DEBUG [main] FontMapperImpl:484 - getFont('TTF','MS-Gothic') returns MS-Gothic (TTF, mac: 0x0, os/2: 0x801, cid: null) C:\WINDOWS\FONTS\msgothic.ttc
+2022-08-28 14:26:00,935 DEBUG [main] FileSystemFontProvider:198 - Loaded MS-Gothic from C:\WINDOWS\FONTS\msgothic.ttc
+2022-08-28 14:26:04,317 DEBUG [main] cache:45 - Couldn't find template in cache for "html/v3-html-index.ftl"("en_US", UTF-8, parsed); will try to load it.
+2022-08-28 14:26:04,319 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("html/v3-html-index_en_US.ftl"): Not found
+2022-08-28 14:26:04,325 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("html/v3-html-index_en.ftl"): Not found
+2022-08-28 14:26:04,327 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("html/v3-html-index.ftl"): Found
+2022-08-28 14:26:04,327 DEBUG [main] cache:45 - Loading template for "html/v3-html-index.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/lenovo/.m2/repository/tech/grasshopper/htmlextentreporter/1.0.1/htmlextentreporter-1.0.1.jar!/com/aventstack/extentreports/templates/html/v3-html-index.ftl"
+2022-08-28 14:26:04,848 DEBUG [main] cache:45 - Couldn't find template in cache for "commons/commons-variables.ftl"("en_US", UTF-8, parsed); will try to load it.
+2022-08-28 14:26:04,849 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables_en_US.ftl"): Not found
+2022-08-28 14:26:04,850 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+2022-08-28 14:26:04,851 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+2022-08-28 14:26:04,851 DEBUG [main] cache:45 - Loading template for "commons/commons-variables.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/lenovo/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+2022-08-28 14:26:05,026 DEBUG [main] cache:45 - Couldn't find template in cache for "html/v3-html-head.ftl"("en_US", UTF-8, parsed); will try to load it.
+2022-08-28 14:26:05,027 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("html/v3-html-head_en_US.ftl"): Not found
+2022-08-28 14:26:05,029 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("html/v3-html-head_en.ftl"): Not found
+2022-08-28 14:26:05,030 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("html/v3-html-head.ftl"): Found
+2022-08-28 14:26:05,030 DEBUG [main] cache:45 - Loading template for "html/v3-html-head.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/lenovo/.m2/repository/tech/grasshopper/htmlextentreporter/1.0.1/htmlextentreporter-1.0.1.jar!/com/aventstack/extentreports/templates/html/v3-html-head.ftl"
+2022-08-28 14:26:05,040 DEBUG [main] beans:45 - Key "styles" was not found on instance of com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig. Introspection information for the class is: {getClass=public final native java.lang.Class java.lang.Object.getClass(), css=freemarker.ext.beans.FastPropertyDescriptor@3d0cac1f, getStore=public com.aventstack.extentreports.config.ConfigStore com.aventstack.extentreports.reporter.configuration.AbstractConfiguration.getStore(), getDocumentTitle=public java.lang.String com.aventstack.extentreports.reporter.configuration.FileReporterConfig.getDocumentTitle(), setProtocol=public void com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.setProtocol(com.aventstack.extentreports.reporter.configuration.Protocol), getTimeStampFormat=public java.lang.String com.aventstack.extentreports.reporter.configuration.AbstractConfiguration.getTimeStampFormat(), getReportName=public java.lang.String com.aventstack.extentreports.reporter.configuration.AbstractConfiguration.getReportName(), getEncoding=public java.lang.String com.aventstack.extentreports.reporter.configuration.FileReporterConfig.getEncoding(), protocol=freemarker.ext.beans.FastPropertyDescriptor@3e8b3b79, getEnableTimeline=public java.lang.Boolean com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getEnableTimeline(), getChartVisibleOnOpen=public java.lang.Boolean com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getChartVisibleOnOpen(), documentTitle=freemarker.ext.beans.FastPropertyDescriptor@d257579, isTimelineEnabled=public boolean com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.isTimelineEnabled(), enableCategoryView=freemarker.ext.beans.FastPropertyDescriptor@518ddd3b, setEnableTimeline=public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setEnableTimeline(java.lang.Boolean), offlineMode=freemarker.ext.beans.FastPropertyDescriptor@939ff41, getEnableTestRunnerLogsView=public java.lang.Boolean com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getEnableTestRunnerLogsView(), getTheme=public com.aventstack.extentreports.reporter.configuration.Theme com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.getTheme(), timelineEnabled=freemarker.ext.beans.FastPropertyDescriptor@6e0e5dec, setEnableCategoryView=public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setEnableCategoryView(java.lang.Boolean), setEnableExceptionView=public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setEnableExceptionView(java.lang.Boolean), setOfflineMode=public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setOfflineMode(java.lang.Boolean), enableOfflineMode=public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.enableOfflineMode(java.lang.Boolean), resourceCDN=freemarker.ext.beans.FastPropertyDescriptor@48a663e9, setChartVisibleOnOpen=public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setChartVisibleOnOpen(java.lang.Boolean), encoding=freemarker.ext.beans.FastPropertyDescriptor@777d0bc3, setDocumentTitle=public void com.aventstack.extentreports.reporter.configuration.FileReporterConfig.setDocumentTitle(java.lang.String), setResourceCDN=public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setResourceCDN(java.lang.String), getOfflineMode=public java.lang.Boolean com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getOfflineMode(), chartVisibleOnOpen=freemarker.ext.beans.FastPropertyDescriptor@3178219a, getReporter=public com.aventstack.extentreports.reporter.AbstractReporter com.aventstack.extentreports.reporter.configuration.AbstractConfiguration.getReporter(), java.lang.Object@22ff4249={public java.lang.String java.lang.Object.toString()=[Ljava.lang.Class;@2d85fb64, public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setChartVisibleOnOpen(java.lang.Boolean)=[Ljava.lang.Class;@56476c16, public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.enableOfflineMode(java.lang.Boolean)=[Ljava.lang.Class;@497b560e, public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setEnableAuthorView(java.lang.Boolean)=[Ljava.lang.Class;@39ffda4a, public void com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.setTheme(com.aventstack.extentreports.reporter.configuration.Theme)=[Ljava.lang.Class;@3ba348ca, public java.lang.String com.aventstack.extentreports.reporter.configuration.FileReporterConfig.getEncoding()=[Ljava.lang.Class;@56e9a474, public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setResourceCDN(java.lang.String)=[Ljava.lang.Class;@45b15381, public java.lang.Boolean com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getOfflineMode()=[Ljava.lang.Class;@2dbfcf7, public java.lang.String com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getTestViewChartLocation()=[Ljava.lang.Class;@239f017e, public java.lang.String com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getResourceCDN()=[Ljava.lang.Class;@38cedb7d, public java.lang.Boolean com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getEnableTestRunnerLogsView()=[Ljava.lang.Class;@772caabe, public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setEnableTestRunnerLogsView(java.lang.Boolean)=[Ljava.lang.Class;@2acdcce8, public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setEnableTimeline(java.lang.Boolean)=[Ljava.lang.Class;@7102ac3e, public boolean java.lang.Object.equals(java.lang.Object)=[Ljava.lang.Class;@3f598450, public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setOfflineMode(java.lang.Boolean)=[Ljava.lang.Class;@2db2a05f, public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setEnableCategoryView(java.lang.Boolean)=[Ljava.lang.Class;@695c938d, public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setEnableExceptionView(java.lang.Boolean)=[Ljava.lang.Class;@d5bb1c4, public void com.aventstack.extentreports.reporter.configuration.FileReporterConfig.setEncoding(java.lang.String)=[Ljava.lang.Class;@7ed3df3b, public java.lang.String com.aventstack.extentreports.reporter.configuration.AbstractConfiguration.getReportName()=[Ljava.lang.Class;@465b38e6, public java.lang.String com.aventstack.extentreports.reporter.configuration.AbstractConfiguration.getTimeStampFormat()=[Ljava.lang.Class;@4b960b5b, public java.lang.String com.aventstack.extentreports.reporter.configuration.FileReporterConfig.getDocumentTitle()=[Ljava.lang.Class;@1b13467c, public java.lang.Boolean com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getEnableCategoryView()=[Ljava.lang.Class;@7bd96822, public java.lang.Boolean com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getEnableExceptionView()=[Ljava.lang.Class;@64dae3b7, public com.aventstack.extentreports.reporter.configuration.Protocol com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.getProtocol()=[Ljava.lang.Class;@1fedf0a4, public java.lang.String com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.getJs()=[Ljava.lang.Class;@1e4c6583, public com.aventstack.extentreports.config.ConfigStore com.aventstack.extentreports.reporter.configuration.AbstractConfiguration.getStore()=[Ljava.lang.Class;@2ee48610, public com.aventstack.extentreports.reporter.configuration.Theme com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.getTheme()=[Ljava.lang.Class;@1d901f20, public void com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.setTimelineEnabled(boolean)=[Ljava.lang.Class;@6d08b4e6, public boolean com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.isTimelineEnabled()=[Ljava.lang.Class;@1015a4b9, public java.lang.Boolean com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getEnableAuthorView()=[Ljava.lang.Class;@1acb74ad, public void com.aventstack.extentreports.reporter.configuration.AbstractConfiguration.setTimeStampFormat(java.lang.String)=[Ljava.lang.Class;@7bf01cb, public void com.aventstack.extentreports.reporter.configuration.AbstractConfiguration.setReporter(com.aventstack.extentreports.reporter.AbstractReporter)=[Ljava.lang.Class;@2f382a5e, public java.lang.Boolean com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getDisableToggleActionForPassedNode()=[Ljava.lang.Class;@12b5736c, public com.aventstack.extentreports.reporter.AbstractReporter com.aventstack.extentreports.reporter.configuration.AbstractConfiguration.getReporter()=[Ljava.lang.Class;@539a138b, public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setTestViewChartLocation(java.lang.String)=[Ljava.lang.Class;@2cd4e16a, public native int java.lang.Object.hashCode()=[Ljava.lang.Class;@42505474, public java.lang.Boolean com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getChartVisibleOnOpen()=[Ljava.lang.Class;@7b477141, public static com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig$ExtentHtmlReporterConfigBuilder com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.builder()=[Ljava.lang.Class;@784223e9, public void com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.setJs(java.lang.String)=[Ljava.lang.Class;@7316523a, public void com.aventstack.extentreports.reporter.configuration.AbstractConfiguration.setReportName(java.lang.String)=[Ljava.lang.Class;@33a55bd8, public void com.aventstack.extentreports.reporter.configuration.FileReporterConfig.setDocumentTitle(java.lang.String)=[Ljava.lang.Class;@73a8e994, public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setDisableToggleActionForPassedNode(java.lang.Boolean)=[Ljava.lang.Class;@1a1cc163, public java.lang.String com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.getCss()=[Ljava.lang.Class;@5b5ac798, public void com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.setProtocol(com.aventstack.extentreports.reporter.configuration.Protocol)=[Ljava.lang.Class;@42383cb0, public final native java.lang.Class java.lang.Object.getClass()=[Ljava.lang.Class;@7668892a, public java.lang.Boolean com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getEnableTimeline()=[Ljava.lang.Class;@a83495d, public void com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.setCss(java.lang.String)=[Ljava.lang.Class;@7e83992}, setTheme=public void com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.setTheme(com.aventstack.extentreports.reporter.configuration.Theme), enableTestRunnerLogsView=freemarker.ext.beans.FastPropertyDescriptor@4364863, enableAuthorView=freemarker.ext.beans.FastPropertyDescriptor@3625a016, setTestViewChartLocation=public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setTestViewChartLocation(java.lang.String), setCss=public void com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.setCss(java.lang.String), reportName=freemarker.ext.beans.FastPropertyDescriptor@267cde2e, setEncoding=public void com.aventstack.extentreports.reporter.configuration.FileReporterConfig.setEncoding(java.lang.String), testViewChartLocation=freemarker.ext.beans.FastPropertyDescriptor@609e57da, getCss=public java.lang.String com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.getCss(), js=freemarker.ext.beans.FastPropertyDescriptor@56dd6efa, getEnableAuthorView=public java.lang.Boolean com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getEnableAuthorView(), getDisableToggleActionForPassedNode=public java.lang.Boolean com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getDisableToggleActionForPassedNode(), setJs=public void com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.setJs(java.lang.String), setDisableToggleActionForPassedNode=public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setDisableToggleActionForPassedNode(java.lang.Boolean), hashCode=public native int java.lang.Object.hashCode(), builder=public static com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig$ExtentHtmlReporterConfigBuilder com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.builder(), theme=freemarker.ext.beans.FastPropertyDescriptor@4d634127, enableTimeline=freemarker.ext.beans.FastPropertyDescriptor@d2e6b0b, class=freemarker.ext.beans.FastPropertyDescriptor@1f1cddf3, setEnableTestRunnerLogsView=public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setEnableTestRunnerLogsView(java.lang.Boolean), setReportName=public void com.aventstack.extentreports.reporter.configuration.AbstractConfiguration.setReportName(java.lang.String), getResourceCDN=public java.lang.String com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getResourceCDN(), getTestViewChartLocation=public java.lang.String com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getTestViewChartLocation(), setTimelineEnabled=public void com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.setTimelineEnabled(boolean), getJs=public java.lang.String com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.getJs(), enableExceptionView=freemarker.ext.beans.FastPropertyDescriptor@228bda54, setEnableAuthorView=public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setEnableAuthorView(java.lang.Boolean), reporter=freemarker.ext.beans.FastPropertyDescriptor@75b6dd5b, getProtocol=public com.aventstack.extentreports.reporter.configuration.Protocol com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.getProtocol(), store=freemarker.ext.beans.FastPropertyDescriptor@b3e86d5, timeStampFormat=freemarker.ext.beans.FastPropertyDescriptor@72b43104, disableToggleActionForPassedNode=freemarker.ext.beans.FastPropertyDescriptor@e111c7c, equals=public boolean java.lang.Object.equals(java.lang.Object), toString=public java.lang.String java.lang.Object.toString(), setTimeStampFormat=public void com.aventstack.extentreports.reporter.configuration.AbstractConfiguration.setTimeStampFormat(java.lang.String), setReporter=public void com.aventstack.extentreports.reporter.configuration.AbstractConfiguration.setReporter(com.aventstack.extentreports.reporter.AbstractReporter), getEnableCategoryView=public java.lang.Boolean com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getEnableCategoryView(), getEnableExceptionView=public java.lang.Boolean com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getEnableExceptionView()}
+2022-08-28 14:26:05,041 DEBUG [main] cache:45 - Couldn't find template in cache for "html/v3-html-nav.ftl"("en_US", UTF-8, parsed); will try to load it.
+2022-08-28 14:26:05,042 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("html/v3-html-nav_en_US.ftl"): Not found
+2022-08-28 14:26:05,043 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("html/v3-html-nav_en.ftl"): Not found
+2022-08-28 14:26:05,044 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("html/v3-html-nav.ftl"): Found
+2022-08-28 14:26:05,045 DEBUG [main] cache:45 - Loading template for "html/v3-html-nav.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/lenovo/.m2/repository/tech/grasshopper/htmlextentreporter/1.0.1/htmlextentreporter-1.0.1.jar!/com/aventstack/extentreports/templates/html/v3-html-nav.ftl"
+2022-08-28 14:26:05,067 DEBUG [main] cache:45 - Couldn't find template in cache for "html/test-view/v3-html-test-view.ftl"("en_US", UTF-8, parsed); will try to load it.
+2022-08-28 14:26:05,068 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("html/test-view/v3-html-test-view_en_US.ftl"): Not found
+2022-08-28 14:26:05,071 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("html/test-view/v3-html-test-view_en.ftl"): Not found
+2022-08-28 14:26:05,072 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("html/test-view/v3-html-test-view.ftl"): Found
+2022-08-28 14:26:05,072 DEBUG [main] cache:45 - Loading template for "html/test-view/v3-html-test-view.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/lenovo/.m2/repository/tech/grasshopper/htmlextentreporter/1.0.1/htmlextentreporter-1.0.1.jar!/com/aventstack/extentreports/templates/html/test-view/v3-html-test-view.ftl"
+2022-08-28 14:26:05,108 DEBUG [main] cache:45 - Couldn't find template in cache for "html/test-view/v3-html-test-view-charts.ftl"("en_US", UTF-8, parsed); will try to load it.
+2022-08-28 14:26:05,110 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("html/test-view/v3-html-test-view-charts_en_US.ftl"): Not found
+2022-08-28 14:26:05,115 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2022-08-28 14:26:05,117 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("html/test-view/v3-html-test-view-charts.ftl"): Found
+2022-08-28 14:26:05,117 DEBUG [main] cache:45 - Loading template for "html/test-view/v3-html-test-view-charts.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/lenovo/.m2/repository/tech/grasshopper/htmlextentreporter/1.0.1/htmlextentreporter-1.0.1.jar!/com/aventstack/extentreports/templates/html/test-view/v3-html-test-view-charts.ftl"
+2022-08-28 14:26:05,170 DEBUG [main] cache:45 - Couldn't find template in cache for "html/test-view/v3-html-bdd.ftl"("en_US", UTF-8, parsed); will try to load it.
+2022-08-28 14:26:05,172 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("html/test-view/v3-html-bdd_en_US.ftl"): Not found
+2022-08-28 14:26:05,173 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("html/test-view/v3-html-bdd_en.ftl"): Not found
+2022-08-28 14:26:05,175 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("html/test-view/v3-html-bdd.ftl"): Found
+2022-08-28 14:26:05,176 DEBUG [main] cache:45 - Loading template for "html/test-view/v3-html-bdd.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/lenovo/.m2/repository/tech/grasshopper/htmlextentreporter/1.0.1/htmlextentreporter-1.0.1.jar!/com/aventstack/extentreports/templates/html/test-view/v3-html-bdd.ftl"
+2022-08-28 14:26:05,244 DEBUG [main] cache:45 - Couldn't find template in cache for "html/category-view/v3-html-category-view.ftl"("en_US", UTF-8, parsed); will try to load it.
+2022-08-28 14:26:05,245 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("html/category-view/v3-html-category-view_en_US.ftl"): Not found
+2022-08-28 14:26:05,246 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("html/category-view/v3-html-category-view_en.ftl"): Not found
+2022-08-28 14:26:05,247 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("html/category-view/v3-html-category-view.ftl"): Found
+2022-08-28 14:26:05,247 DEBUG [main] cache:45 - Loading template for "html/category-view/v3-html-category-view.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/lenovo/.m2/repository/tech/grasshopper/htmlextentreporter/1.0.1/htmlextentreporter-1.0.1.jar!/com/aventstack/extentreports/templates/html/category-view/v3-html-category-view.ftl"
+2022-08-28 14:26:05,253 DEBUG [main] cache:45 - Couldn't find template in cache for "html/dashboard-view/v3-html-dashboard-view.ftl"("en_US", UTF-8, parsed); will try to load it.
+2022-08-28 14:26:05,255 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("html/dashboard-view/v3-html-dashboard-view_en_US.ftl"): Not found
+2022-08-28 14:26:05,256 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2022-08-28 14:26:05,259 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2022-08-28 14:26:05,260 DEBUG [main] cache:45 - Loading template for "html/dashboard-view/v3-html-dashboard-view.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/lenovo/.m2/repository/tech/grasshopper/htmlextentreporter/1.0.1/htmlextentreporter-1.0.1.jar!/com/aventstack/extentreports/templates/html/dashboard-view/v3-html-dashboard-view.ftl"
+2022-08-28 14:26:05,326 DEBUG [main] beans:45 - Key "scripts" was not found on instance of com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig. Introspection information for the class is: {getClass=public final native java.lang.Class java.lang.Object.getClass(), css=freemarker.ext.beans.FastPropertyDescriptor@3d0cac1f, getStore=public com.aventstack.extentreports.config.ConfigStore com.aventstack.extentreports.reporter.configuration.AbstractConfiguration.getStore(), getDocumentTitle=public java.lang.String com.aventstack.extentreports.reporter.configuration.FileReporterConfig.getDocumentTitle(), setProtocol=public void com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.setProtocol(com.aventstack.extentreports.reporter.configuration.Protocol), getTimeStampFormat=public java.lang.String com.aventstack.extentreports.reporter.configuration.AbstractConfiguration.getTimeStampFormat(), getReportName=public java.lang.String com.aventstack.extentreports.reporter.configuration.AbstractConfiguration.getReportName(), getEncoding=public java.lang.String com.aventstack.extentreports.reporter.configuration.FileReporterConfig.getEncoding(), protocol=freemarker.ext.beans.FastPropertyDescriptor@3e8b3b79, getEnableTimeline=public java.lang.Boolean com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getEnableTimeline(), getChartVisibleOnOpen=public java.lang.Boolean com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getChartVisibleOnOpen(), documentTitle=freemarker.ext.beans.FastPropertyDescriptor@d257579, isTimelineEnabled=public boolean com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.isTimelineEnabled(), enableCategoryView=freemarker.ext.beans.FastPropertyDescriptor@518ddd3b, setEnableTimeline=public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setEnableTimeline(java.lang.Boolean), offlineMode=freemarker.ext.beans.FastPropertyDescriptor@939ff41, getEnableTestRunnerLogsView=public java.lang.Boolean com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getEnableTestRunnerLogsView(), getTheme=public com.aventstack.extentreports.reporter.configuration.Theme com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.getTheme(), timelineEnabled=freemarker.ext.beans.FastPropertyDescriptor@6e0e5dec, setEnableCategoryView=public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setEnableCategoryView(java.lang.Boolean), setEnableExceptionView=public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setEnableExceptionView(java.lang.Boolean), setOfflineMode=public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setOfflineMode(java.lang.Boolean), enableOfflineMode=public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.enableOfflineMode(java.lang.Boolean), resourceCDN=freemarker.ext.beans.FastPropertyDescriptor@48a663e9, setChartVisibleOnOpen=public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setChartVisibleOnOpen(java.lang.Boolean), encoding=freemarker.ext.beans.FastPropertyDescriptor@777d0bc3, setDocumentTitle=public void com.aventstack.extentreports.reporter.configuration.FileReporterConfig.setDocumentTitle(java.lang.String), setResourceCDN=public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setResourceCDN(java.lang.String), getOfflineMode=public java.lang.Boolean com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getOfflineMode(), chartVisibleOnOpen=freemarker.ext.beans.FastPropertyDescriptor@3178219a, getReporter=public com.aventstack.extentreports.reporter.AbstractReporter com.aventstack.extentreports.reporter.configuration.AbstractConfiguration.getReporter(), java.lang.Object@22ff4249={public java.lang.String java.lang.Object.toString()=[Ljava.lang.Class;@2d85fb64, public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setChartVisibleOnOpen(java.lang.Boolean)=[Ljava.lang.Class;@56476c16, public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.enableOfflineMode(java.lang.Boolean)=[Ljava.lang.Class;@497b560e, public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setEnableAuthorView(java.lang.Boolean)=[Ljava.lang.Class;@39ffda4a, public void com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.setTheme(com.aventstack.extentreports.reporter.configuration.Theme)=[Ljava.lang.Class;@3ba348ca, public java.lang.String com.aventstack.extentreports.reporter.configuration.FileReporterConfig.getEncoding()=[Ljava.lang.Class;@56e9a474, public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setResourceCDN(java.lang.String)=[Ljava.lang.Class;@45b15381, public java.lang.Boolean com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getOfflineMode()=[Ljava.lang.Class;@2dbfcf7, public java.lang.String com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getTestViewChartLocation()=[Ljava.lang.Class;@239f017e, public java.lang.String com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getResourceCDN()=[Ljava.lang.Class;@38cedb7d, public java.lang.Boolean com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getEnableTestRunnerLogsView()=[Ljava.lang.Class;@772caabe, public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setEnableTestRunnerLogsView(java.lang.Boolean)=[Ljava.lang.Class;@2acdcce8, public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setEnableTimeline(java.lang.Boolean)=[Ljava.lang.Class;@7102ac3e, public boolean java.lang.Object.equals(java.lang.Object)=[Ljava.lang.Class;@3f598450, public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setOfflineMode(java.lang.Boolean)=[Ljava.lang.Class;@2db2a05f, public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setEnableCategoryView(java.lang.Boolean)=[Ljava.lang.Class;@695c938d, public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setEnableExceptionView(java.lang.Boolean)=[Ljava.lang.Class;@d5bb1c4, public void com.aventstack.extentreports.reporter.configuration.FileReporterConfig.setEncoding(java.lang.String)=[Ljava.lang.Class;@7ed3df3b, public java.lang.String com.aventstack.extentreports.reporter.configuration.AbstractConfiguration.getReportName()=[Ljava.lang.Class;@465b38e6, public java.lang.String com.aventstack.extentreports.reporter.configuration.AbstractConfiguration.getTimeStampFormat()=[Ljava.lang.Class;@4b960b5b, public java.lang.String com.aventstack.extentreports.reporter.configuration.FileReporterConfig.getDocumentTitle()=[Ljava.lang.Class;@1b13467c, public java.lang.Boolean com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getEnableCategoryView()=[Ljava.lang.Class;@7bd96822, public java.lang.Boolean com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getEnableExceptionView()=[Ljava.lang.Class;@64dae3b7, public com.aventstack.extentreports.reporter.configuration.Protocol com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.getProtocol()=[Ljava.lang.Class;@1fedf0a4, public java.lang.String com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.getJs()=[Ljava.lang.Class;@1e4c6583, public com.aventstack.extentreports.config.ConfigStore com.aventstack.extentreports.reporter.configuration.AbstractConfiguration.getStore()=[Ljava.lang.Class;@2ee48610, public com.aventstack.extentreports.reporter.configuration.Theme com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.getTheme()=[Ljava.lang.Class;@1d901f20, public void com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.setTimelineEnabled(boolean)=[Ljava.lang.Class;@6d08b4e6, public boolean com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.isTimelineEnabled()=[Ljava.lang.Class;@1015a4b9, public java.lang.Boolean com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getEnableAuthorView()=[Ljava.lang.Class;@1acb74ad, public void com.aventstack.extentreports.reporter.configuration.AbstractConfiguration.setTimeStampFormat(java.lang.String)=[Ljava.lang.Class;@7bf01cb, public void com.aventstack.extentreports.reporter.configuration.AbstractConfiguration.setReporter(com.aventstack.extentreports.reporter.AbstractReporter)=[Ljava.lang.Class;@2f382a5e, public java.lang.Boolean com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getDisableToggleActionForPassedNode()=[Ljava.lang.Class;@12b5736c, public com.aventstack.extentreports.reporter.AbstractReporter com.aventstack.extentreports.reporter.configuration.AbstractConfiguration.getReporter()=[Ljava.lang.Class;@539a138b, public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setTestViewChartLocation(java.lang.String)=[Ljava.lang.Class;@2cd4e16a, public native int java.lang.Object.hashCode()=[Ljava.lang.Class;@42505474, public java.lang.Boolean com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getChartVisibleOnOpen()=[Ljava.lang.Class;@7b477141, public static com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig$ExtentHtmlReporterConfigBuilder com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.builder()=[Ljava.lang.Class;@784223e9, public void com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.setJs(java.lang.String)=[Ljava.lang.Class;@7316523a, public void com.aventstack.extentreports.reporter.configuration.AbstractConfiguration.setReportName(java.lang.String)=[Ljava.lang.Class;@33a55bd8, public void com.aventstack.extentreports.reporter.configuration.FileReporterConfig.setDocumentTitle(java.lang.String)=[Ljava.lang.Class;@73a8e994, public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setDisableToggleActionForPassedNode(java.lang.Boolean)=[Ljava.lang.Class;@1a1cc163, public java.lang.String com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.getCss()=[Ljava.lang.Class;@5b5ac798, public void com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.setProtocol(com.aventstack.extentreports.reporter.configuration.Protocol)=[Ljava.lang.Class;@42383cb0, public final native java.lang.Class java.lang.Object.getClass()=[Ljava.lang.Class;@7668892a, public java.lang.Boolean com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getEnableTimeline()=[Ljava.lang.Class;@a83495d, public void com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.setCss(java.lang.String)=[Ljava.lang.Class;@7e83992}, setTheme=public void com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.setTheme(com.aventstack.extentreports.reporter.configuration.Theme), enableTestRunnerLogsView=freemarker.ext.beans.FastPropertyDescriptor@4364863, enableAuthorView=freemarker.ext.beans.FastPropertyDescriptor@3625a016, setTestViewChartLocation=public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setTestViewChartLocation(java.lang.String), setCss=public void com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.setCss(java.lang.String), reportName=freemarker.ext.beans.FastPropertyDescriptor@267cde2e, setEncoding=public void com.aventstack.extentreports.reporter.configuration.FileReporterConfig.setEncoding(java.lang.String), testViewChartLocation=freemarker.ext.beans.FastPropertyDescriptor@609e57da, getCss=public java.lang.String com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.getCss(), js=freemarker.ext.beans.FastPropertyDescriptor@56dd6efa, getEnableAuthorView=public java.lang.Boolean com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getEnableAuthorView(), getDisableToggleActionForPassedNode=public java.lang.Boolean com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getDisableToggleActionForPassedNode(), setJs=public void com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.setJs(java.lang.String), setDisableToggleActionForPassedNode=public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setDisableToggleActionForPassedNode(java.lang.Boolean), hashCode=public native int java.lang.Object.hashCode(), builder=public static com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig$ExtentHtmlReporterConfigBuilder com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.builder(), theme=freemarker.ext.beans.FastPropertyDescriptor@4d634127, enableTimeline=freemarker.ext.beans.FastPropertyDescriptor@d2e6b0b, class=freemarker.ext.beans.FastPropertyDescriptor@1f1cddf3, setEnableTestRunnerLogsView=public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setEnableTestRunnerLogsView(java.lang.Boolean), setReportName=public void com.aventstack.extentreports.reporter.configuration.AbstractConfiguration.setReportName(java.lang.String), getResourceCDN=public java.lang.String com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getResourceCDN(), getTestViewChartLocation=public java.lang.String com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getTestViewChartLocation(), setTimelineEnabled=public void com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.setTimelineEnabled(boolean), getJs=public java.lang.String com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.getJs(), enableExceptionView=freemarker.ext.beans.FastPropertyDescriptor@228bda54, setEnableAuthorView=public void com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.setEnableAuthorView(java.lang.Boolean), reporter=freemarker.ext.beans.FastPropertyDescriptor@75b6dd5b, getProtocol=public com.aventstack.extentreports.reporter.configuration.Protocol com.aventstack.extentreports.reporter.configuration.InteractiveReporterConfig.getProtocol(), store=freemarker.ext.beans.FastPropertyDescriptor@b3e86d5, timeStampFormat=freemarker.ext.beans.FastPropertyDescriptor@72b43104, disableToggleActionForPassedNode=freemarker.ext.beans.FastPropertyDescriptor@e111c7c, equals=public boolean java.lang.Object.equals(java.lang.Object), toString=public java.lang.String java.lang.Object.toString(), setTimeStampFormat=public void com.aventstack.extentreports.reporter.configuration.AbstractConfiguration.setTimeStampFormat(java.lang.String), setReporter=public void com.aventstack.extentreports.reporter.configuration.AbstractConfiguration.setReporter(com.aventstack.extentreports.reporter.AbstractReporter), getEnableCategoryView=public java.lang.Boolean com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getEnableCategoryView(), getEnableExceptionView=public java.lang.Boolean com.aventstack.extentreports.reporter.configuration.ExtentHtmlReporterConfig.getEnableExceptionView()}
